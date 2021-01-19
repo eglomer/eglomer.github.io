@@ -1,8 +1,4 @@
-//<![CDATA[ 
-		
-	
-	
-			
+ï»¿//<![CDATA[ 
 
 	// Change Zippo's options
 	function Option(quest, ans){
@@ -23,55 +19,55 @@
 		if (lang == 0){
 			// QUESTIONS
 			if (question == 0){ // main menu
-				if (answer == 0) object.innerHTML += "Bienvenido/a al portfolio de Églomer.</br>¿Puedo ayudarle en algo?</br>";
-				else if (answer == 1) object.innerHTML += "¿En qué puedo ayudarle?</br>";
+				if (answer == 0) object.innerHTML += "Bienvenido/a al portfolio de Ã‰glomer.</br>Â¿Puedo ayudarle en algo?</br>";
+				else if (answer == 1) object.innerHTML += "Â¿En quÃ© puedo ayudarle?</br>";
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>Sólo quiero echar un vistazo.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Háblame de Églomer.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>Quiero saber más sobre ti.</a></span></br>";
+					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>SÃ³lo quiero echar un vistazo.</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>HÃ¡blame de Ã‰glomer.</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>Quiero saber mÃ¡s sobre ti.</a></span></br>";
 		
 			}else if (question == 1){ // Eglomer's menu
 				object.style.maxWidth = "800px";
-				if (answer == 0) object.innerHTML += "¿Qué quiere saber de Églomer?</br>";
+				if (answer == 0) object.innerHTML += "Â¿QuÃ© quiere saber de Ã‰glomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer es en realidad Javier Moya Nájera, un valenciano de "+WriteAge()+" años apasionado por el mundo de los videojuegos y la tecnología, aunque también tiene otros hobbys como la escritura, la música y la meteorología.</p>"
-					+ "<p>Es trabajador, ordenado, disciplinado y tiene una GRAN facilidad para aprender, y poco más puedo decirle: esto es todo lo que ponía en el guión que me dio para preguntas como ésta.</p>"
+					  "<p>Ã‰glomer es en realidad Javier Moya NÃ¡jera, un valenciano de "+WriteAge()+" aÃ±os apasionado por el mundo de los videojuegos y la tecnologÃ­a, aunque tambiÃ©n tiene otros hobbys como la escritura, la mÃºsica y la meteorologÃ­a.</p>"
+					+ "<p>Es trabajador, ordenado, disciplinado y tiene una GRAN facilidad para aprender, y poco mÃ¡s puedo decirle: esto es todo lo que ponÃ­a en el guiÃ³n que me dio para preguntas como Ã©sta.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
-					  "<p>Está diplomado en Magisterio Musical por la Universidad Jaume I de Castellón, habiendo conseguido todos los honores posibles. También estudió un año de Ingeniería Informática en la Universidad Politécnica de Valencia, y ha realizado cursos de programación en C/C++ y en Visual Basic en el Centro Ciencias de la Información de Castellón.</p>"
-					+ "<p>El curso pasado finalizó el Grado Superior de Desarrollo de Aplicaciones Multiplataforma (una de las variantes LOE del antiguo Ciclo Superior de Desarrollo de Aplicaciones Informáticas) en modalidad a distancia, con una nota media de 9'3, y actualmente está finalizando el Grado Superior de Desarrollo de Aplicaciones Web en la misma modalidad.</p>"
+					  "<p>EstÃ¡ diplomado en Magisterio Musical por la Universidad Jaume I de CastellÃ³n, habiendo conseguido todos los honores posibles. TambiÃ©n estudiÃ³ un aÃ±o de IngenierÃ­a InformÃ¡tica en la Universidad PolitÃ©cnica de Valencia, y ha realizado cursos de programaciÃ³n en C/C++ y en Visual Basic en el Centro Ciencias de la InformaciÃ³n de CastellÃ³n.</p>"
+					+ "<p>El curso pasado finalizÃ³ el Grado Superior de Desarrollo de Aplicaciones Multiplataforma (una de las variantes LOE del antiguo Ciclo Superior de Desarrollo de Aplicaciones InformÃ¡ticas) en modalidad a distancia, con una nota media de 9'3, y actualmente estÃ¡ finalizando el Grado Superior de Desarrollo de Aplicaciones Web en la misma modalidad.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Experience
-					  "<p>Durante varios años ha estado desarrollando juegos y aplicaciones para el mundo de la Scene de la Nintendo DS, y ha ganado diversos premios por ello. También ha programado algunas aplicaciones para PC, y ha hecho también algún trabajo de índole profesional con muy buena aceptación.</p>"
-					+ "<p>Además de esto, durante el año 2013 realizó 400 horas de prácticas del Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma en la empresa de videojuegos <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, donde trabaja actualmente.</p>"
-					+ "<p>Los lenguajes de programación con los que cuenta en su haber son: C/C++ (desde 2004), Visual Basic (desde 2005), SQL, XHTML, CSS, PHP y javascript (desde 2011 de manera formal), XML, java (desde 2012), C# (desde 2013).</p>"
+					  "<p>Durante varios aÃ±os ha estado desarrollando juegos y aplicaciones para el mundo de la Scene de la Nintendo DS, y ha ganado diversos premios por ello. TambiÃ©n ha programado algunas aplicaciones para PC, y ha hecho tambiÃ©n algÃºn trabajo de Ã­ndole profesional con muy buena aceptaciÃ³n.</p>"
+					+ "<p>AdemÃ¡s de esto, durante el aÃ±o 2013 realizÃ³ 400 horas de prÃ¡cticas del Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma en la empresa de videojuegos <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, donde trabaja actualmente.</p>"
+					+ "<p>Los lenguajes de programaciÃ³n con los que cuenta en su haber son: C/C++ (desde 2004), Visual Basic (desde 2005), SQL, XHTML, CSS, PHP y javascript (desde 2011 de manera formal), XML, java (desde 2012), C# (desde 2013).</p>"
 					+ "<p>Ha trabajado con los siguientes entornos: Visual Studio 2010, SQL Server 2005, MySQL, Code::Blocks, Code::Lite, Dev-CPP, Eclipse, Unity3D.</p>"
 					;
 				else if (answer == 7) object.innerHTML += // Internships
-					  "<p>Su trabajo en <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a> durante las prácticas consistió principalmente en desarrollar mejoras y herramientas para el motor de la empresa, utilizando el lenguaje de programación C++. Entre ellos, podemos destacar:</br>- La creación de un empaquetador de archivos y la inclusión del correspondiente desempaquetador en el motor.</br>- La creación de funciones para que el motor soportase caracteres UTF-8.</br>- El desarrollo de un editor de escenas 3D utilizando el motor como base, siendo éste capaz de manejar modelos, cámaras, luces y terrenos.</p>"
-					+ "<p>Actualmente su trabajo en la empresa, dado el cambio de rumbo que esta ha tomado, consiste en realizar labores de QA para videojuegos de las plataformas de Sony (PS3, PS4 y Vita) bajo el nombre de <a href='http://www.lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, habiendo trabajado en títulos como: <a href='http://spelunkyworld.com/' target='_blank'>Spelunky</a> (PS3, Vita) y <a href='http://fezgame.com/' target='_blank'>FEZ</a> (PS3, PS4, Vita), entre otros.<p>"
-					+ "<p>Si tiene interés en conocer más sobre el tema, puede <u><a href='mailto:"+WriteEmail("info","ninjafever.com")+"'>contactar con la empresa</a></u> para pedir referencias.</p>"
+					  "<p>Su trabajo en <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a> durante las prÃ¡cticas consistiÃ³ principalmente en desarrollar mejoras y herramientas para el motor de la empresa, utilizando el lenguaje de programaciÃ³n C++. Entre ellos, podemos destacar:</br>- La creaciÃ³n de un empaquetador de archivos y la inclusiÃ³n del correspondiente desempaquetador en el motor.</br>- La creaciÃ³n de funciones para que el motor soportase caracteres UTF-8.</br>- El desarrollo de un editor de escenas 3D utilizando el motor como base, siendo Ã©ste capaz de manejar modelos, cÃ¡maras, luces y terrenos.</p>"
+					+ "<p>Actualmente su trabajo en la empresa, dado el cambio de rumbo que esta ha tomado, consiste en realizar labores de QA para videojuegos de las plataformas de Sony (PS3, PS4 y Vita) bajo el nombre de <a href='http://www.lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, habiendo trabajado en tÃ­tulos como: <a href='http://spelunkyworld.com/' target='_blank'>Spelunky</a> (PS3, Vita) y <a href='http://fezgame.com/' target='_blank'>FEZ</a> (PS3, PS4, Vita), entre otros.<p>"
+					+ "<p>Si tiene interÃ©s en conocer mÃ¡s sobre el tema, puede <u><a href='mailto:"+WriteEmail("info","ninjafever.com")+"'>contactar con la empresa</a></u> para pedir referencias.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>De idiomas no se puede decir que vaya mal. Es bilingüe en castellano y catalán, teniendo el título de Maestro de Valenciano, y con el inglés no se defiende mal, aunque siendo sinceros se le da mejor el escrito que el oral.</p>"
+					  "<p>De idiomas no se puede decir que vaya mal. Es bilingÃ¼e en castellano y catalÃ¡n, teniendo el tÃ­tulo de Maestro de Valenciano, y con el inglÃ©s no se defiende mal, aunque siendo sinceros se le da mejor el escrito que el oral.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
-					  "<p>Puede escribirle un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. Lo revisa a menudo, así que no creo que tarde en contestar.</p>"
+					  "<p>Puede escribirle un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. Lo revisa a menudo, asÃ­ que no creo que tarde en contestar.</p>"
 					;
 				else if (answer == 6) object.innerHTML += // trust you?
-					  "<p>¡Por supuesto que sí! Siempre intento ir con la verdad por delante, tanto para lo bueno como para lo malo. Además, ahora que Églomer no está por aquí, ¿qué me impide hablar con claridad?</p>"
+					  "<p>Â¡Por supuesto que sÃ­! Siempre intento ir con la verdad por delante, tanto para lo bueno como para lo malo. AdemÃ¡s, ahora que Ã‰glomer no estÃ¡ por aquÃ­, Â¿quÃ© me impide hablar con claridad?</p>"
 					;
 				
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>¿Quién es?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,2);'>¿Qué estudios tiene?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,3);'>¿Qué experiencia tiene?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,7);'>Háblame de su trabajo en Ninja Fever.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,4);'>¿Y cómo va de idiomas?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,5);'>¿Cómo puedo contactar con él?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,6);'>¿Estás siendo sincero conmigo?</a></span></br>"
+					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>Â¿QuiÃ©n es?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,2);'>Â¿QuÃ© estudios tiene?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,3);'>Â¿QuÃ© experiencia tiene?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,7);'>HÃ¡blame de su trabajo en Ninja Fever.</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,4);'>Â¿Y cÃ³mo va de idiomas?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,5);'>Â¿CÃ³mo puedo contactar con Ã©l?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,6);'>Â¿EstÃ¡s siendo sincero conmigo?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(0,1);'>Hablemos de otra cosa.</a></span></br>";
 					
 					
@@ -79,10 +75,10 @@
 				object.style.maxWidth = "400px";
 				if (answer == 0) object.innerHTML += "Puede preguntarme lo que quiera.</br>";
 				else if (answer == 1) object.innerHTML += // Who are you?
-					  "<p>Soy Zippo, el <del>becario contratado para servir cafés</del> ayudante personal de Églomer y su imagen representativa desde el año 2008. Me gusta pasear, hacer paracaidismo y viajar, aunque actualmente no dispongo de mucho tiempo para ello.</p>"
+					  "<p>Soy Zippo, el <del>becario contratado para servir cafÃ©s</del> ayudante personal de Ã‰glomer y su imagen representativa desde el aÃ±o 2008. Me gusta pasear, hacer paracaidismo y viajar, aunque actualmente no dispongo de mucho tiempo para ello.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // What are you?
-					  "<p>Soy un miembro de una raza desconocida, parte del mundo imaginario de una de las historias que Églomer escribió hace tiempo.</p>"
+					  "<p>Soy un miembro de una raza desconocida, parte del mundo imaginario de una de las historias que Ã‰glomer escribiÃ³ hace tiempo.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Why are you here?
 					  "<p>Bueno, teniendo en cuenta la crisis mundial en la que estamos, incluso los seres imaginarios nos hemos tenido que buscar la vida para poder subsistir.</p>"
@@ -90,16 +86,16 @@
 				
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:Option(2,1);'>¿Quién eres?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>¿Qué eres exactamente?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,3);'>¿Por qué estás aquí?</a></span></br>"
+					  "<span class='option'>&raquo; <a href='javascript:Option(2,1);'>Â¿QuiÃ©n eres?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>Â¿QuÃ© eres exactamente?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,3);'>Â¿Por quÃ© estÃ¡s aquÃ­?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(0,1);'>Hablemos de otra cosa.</a></span></br>";
 			}
 			
 			object.innerHTML +=
-				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>¿Podrías ocultarte, por favor?</a></span></br>"
+				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>Â¿PodrÃ­as ocultarte, por favor?</a></span></br>"
 				+ "<span class='option'>&raquo; <a href='javascript:Translate(1);'>Talk me in English, please.</a></span></br>"
-				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en Català, per favor.</a></span></br>";
+				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en CatalÃ , per favor.</a></span></br>";
 		}
 		
 		
@@ -115,23 +111,23 @@
 		else if (lang == 1){
 			// QUESTIONS
 			if (question == 0){ // main menu
-				if (answer == 0) object.innerHTML += "Welcome to Églomer's portfolio.</br>Could I help you?</br>";
+				if (answer == 0) object.innerHTML += "Welcome to Ã‰glomer's portfolio.</br>Could I help you?</br>";
 				else if (answer == 1) object.innerHTML += "What could I do for you?</br>";
 				
 				object.innerHTML +=
 					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>I want to take a look.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Talk me about Églomer.</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Talk me about Ã‰glomer.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>I want to know more about you.</a></span></br>";
 		
 			}else if (question == 1){ // Eglomer's menu
 				object.style.maxWidth = "800px";
-				if (answer == 0) object.innerHTML += "What do you want to know about Églomer?</br>";
+				if (answer == 0) object.innerHTML += "What do you want to know about Ã‰glomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer's real name is Javier Moya Nájera, a valencian one of "+WriteAge()+" years old that go mad with videogames and technology, though he has other hobbies like writing, music and meteorology.</p>"
+					  "<p>Ã‰glomer's real name is Javier Moya NÃ¡jera, a valencian one of "+WriteAge()+" years old that go mad with videogames and technology, though he has other hobbies like writing, music and meteorology.</p>"
 					+ "<p>He is hard-working, tidy, disciplined and has a GREAT facility to learn, and I couldn't tell you nothing more: this is everything what he wrote in the script that gave me to answer questions like this.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
-					  "<p>He was graduated in Musical Teaching by Jaume I University from Castelló, and he got all honours in this. He also studied one year of IT Engineering in Technical University from Valencia, and he has realized some courses of programming in C/C ++ and Visual Basic in the Information Sciences Center from Castellón.</p>"
+					  "<p>He was graduated in Musical Teaching by Jaume I University from CastellÃ³, and he got all honours in this. He also studied one year of IT Engineering in Technical University from Valencia, and he has realized some courses of programming in C/C ++ and Visual Basic in the Information Sciences Center from CastellÃ³n.</p>"
 					+ "<p>Last course he has finished the High Degree of Development of Multiplatform Applications (a LOE's variant of old Development IT Applications Superior Degree) in distance-learning modality, with an average of 9'3, and nowadays he is finishing the Development of Web Applications High Degree in the same modality.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Experience
@@ -152,7 +148,7 @@
 					  "<p>You could contact it by <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. He checks it often, so he won't be late in answering.</p>"
 					;
 				else if (answer == 6) object.innerHTML += // trust you?
-					  "<p>Of course yes! I always tell the truth, even for good and bad things. And Églomer isn't here right now, so, what does prevent me from speaking with clarity?</p>"
+					  "<p>Of course yes! I always tell the truth, even for good and bad things. And Ã‰glomer isn't here right now, so, what does prevent me from speaking with clarity?</p>"
 					;
 				
 				object.innerHTML +=
@@ -170,10 +166,10 @@
 				object.style.maxWidth = "400px";
 				if (answer == 0) object.innerHTML += "Ask me what wants.</br>";
 				else if (answer == 1) object.innerHTML += // Who are you?
-					  "<p>I'm Zippo, <del>a scholarship holder contracted to serve coffees</del> the personal assistant of Églomer and his corporative image since 2008. I like to walk, to do parachuting and to travel, but nowadays I haven't time enough to do it.</p>"
+					  "<p>I'm Zippo, <del>a scholarship holder contracted to serve coffees</del> the personal assistant of Ã‰glomer and his corporative image since 2008. I like to walk, to do parachuting and to travel, but nowadays I haven't time enough to do it.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // What are you?
-					  "<p>I'm a member of a unknown race, part of the imaginary world of one of the stories that Églomer wrote time ago.</p>"
+					  "<p>I'm a member of a unknown race, part of the imaginary world of one of the stories that Ã‰glomer wrote time ago.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Why are you here?
 					  "<p>Well, having in mind the worldwide crisis in which we are, even imaginary beings have had to do something to survive.</p>"
@@ -189,8 +185,8 @@
 			
 			object.innerHTML +=
 				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>Can you hide yourself, please?</a></span></br>"
-				+ "<span class='option'>&raquo; <a href='javascript:Translate(0);'>Háblame en Español, por favor.</a></span></br>"
-				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en Català, per favor.</a></span></br>";
+				+ "<span class='option'>&raquo; <a href='javascript:Translate(0);'>HÃ¡blame en EspaÃ±ol, por favor.</a></span></br>"
+				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en CatalÃ , per favor.</a></span></br>";
 		}
 		
 		
@@ -205,50 +201,50 @@
 		else if (lang == 2){
 			// QUESTIONS
 			if (question == 0){ // main menu
-				if (answer == 0) object.innerHTML += "Benvingut/da al portfolio d'Églomer.</br>Puc ajudar-li?</br>";
-				else if (answer == 1) object.innerHTML += "En què puc ajudar-li?</br>";
+				if (answer == 0) object.innerHTML += "Benvingut/da al portfolio d'Ã‰glomer.</br>Puc ajudar-li?</br>";
+				else if (answer == 1) object.innerHTML += "En quÃ¨ puc ajudar-li?</br>";
 				
 				object.innerHTML +=
 					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>Sols vull fer un ull.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Parlam d'Églomer.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>Vull saber més sobre tu.</a></span></br>";
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Parlam d'Ã‰glomer.</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>Vull saber mÃ©s sobre tu.</a></span></br>";
 		
 			}else if (question == 1){ // Eglomer's menu
 				object.style.maxWidth = "800px";
-				if (answer == 0) object.innerHTML += "Què vols saber d'Églomer?</br>";
+				if (answer == 0) object.innerHTML += "QuÃ¨ vols saber d'Ã‰glomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer és en realitat Javier Moya Nájera, un valencià de "+WriteAge()+" anys apassionat pel món dels videojocs i la tecnologia, tot i que també té altres hobbys com l'escriptura, la música i la meteorologia.</p>"
-					+ "<p>És treballador, ordenat, disciplinat i té una GRAN facilitat per aprendre, i poc més puc dir-li: açò és tot el que posava en el guió que em va donar per preguntes com aquesta.</p>"
+					  "<p>Ã‰glomer Ã©s en realitat Javier Moya NÃ¡jera, un valenciÃ  de "+WriteAge()+" anys apassionat pel mÃ³n dels videojocs i la tecnologia, tot i que tambÃ© tÃ© altres hobbys com l'escriptura, la mÃºsica i la meteorologia.</p>"
+					+ "<p>Ã‰s treballador, ordenat, disciplinat i tÃ© una GRAN facilitat per aprendre, i poc mÃ©s puc dir-li: aÃ§Ã² Ã©s tot el que posava en el guiÃ³ que em va donar per preguntes com aquesta.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
-					  "<p>Està diplomat en Magisteri Musical per la Universitat Jaume I de Castelló, i ha aconseguit tots els honors possibles. També va estudiar un any d'Enginyeria Informàtica a la Universitat Politècnica de València, i ha realitzat cursos de programació en C/C++ i Visual Basic al Centre Ciències de la Informació de Castelló.</p>"
-					+ "<p>El curs passat va finalitzar el Grau Superior de Desenvolupament d'Aplicacions Multiplataforma (una de les variants LOE de l'antic Cicle Superior de Desenvolupament d'Aplicacions Informàtiques) en modalitat a distància, amb una nota mitja de 9'3, i actualment està finalitzant el Grau Superior de Desenvolupament d'Aplicacions Web en la mateixa modalitat.</p>"
+					  "<p>EstÃ  diplomat en Magisteri Musical per la Universitat Jaume I de CastellÃ³, i ha aconseguit tots els honors possibles. TambÃ© va estudiar un any d'Enginyeria InformÃ tica a la Universitat PolitÃ¨cnica de ValÃ¨ncia, i ha realitzat cursos de programaciÃ³ en C/C++ i Visual Basic al Centre CiÃ¨ncies de la InformaciÃ³ de CastellÃ³.</p>"
+					+ "<p>El curs passat va finalitzar el Grau Superior de Desenvolupament d'Aplicacions Multiplataforma (una de les variants LOE de l'antic Cicle Superior de Desenvolupament d'Aplicacions InformÃ tiques) en modalitat a distÃ ncia, amb una nota mitja de 9'3, i actualment estÃ  finalitzant el Grau Superior de Desenvolupament d'Aplicacions Web en la mateixa modalitat.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Experience
-					  "<p>Durant uns anys ha estat desenvolupant jocs i aplicacions per al món de l'Scene de la Nintendo DS, on ha guanyat ja diversos premis. També ha programat algunes aplicacions per a PC i ha fet també algun treball d'índole professional amb molt bona acceptació.</p>"
-					+ "<p>A més, al 2013 va realitzar 400 hores de pràctiques del Cicle Superior de Desenvolupament d'Aplicacions Multiplataforma a l'empresa de videojocs <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, on està treballant actualment.</p>"
-					+ "<p>Els llenguatges de programació amb els que compta són: C/C++ (des de 2004), Visual Basic (des de 2005), SQL, XHTML, CSS, PHP i javascript (des de 2011 de manera formal), XML, java (des de 2012), C# (des de 2013).</p>"
-					+ "<p>Ha treballat amb els següents entorns: Visual Studio 2010, SQL Server 2005, MySQL, Code::Blocks, Code::Lite, Dev-CPP, Eclipse, Unity3D.</p>"
+					  "<p>Durant uns anys ha estat desenvolupant jocs i aplicacions per al mÃ³n de l'Scene de la Nintendo DS, on ha guanyat ja diversos premis. TambÃ© ha programat algunes aplicacions per a PC i ha fet tambÃ© algun treball d'Ã­ndole professional amb molt bona acceptaciÃ³.</p>"
+					+ "<p>A mÃ©s, al 2013 va realitzar 400 hores de prÃ ctiques del Cicle Superior de Desenvolupament d'Aplicacions Multiplataforma a l'empresa de videojocs <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, on estÃ  treballant actualment.</p>"
+					+ "<p>Els llenguatges de programaciÃ³ amb els que compta sÃ³n: C/C++ (des de 2004), Visual Basic (des de 2005), SQL, XHTML, CSS, PHP i javascript (des de 2011 de manera formal), XML, java (des de 2012), C# (des de 2013).</p>"
+					+ "<p>Ha treballat amb els segÃ¼ents entorns: Visual Studio 2010, SQL Server 2005, MySQL, Code::Blocks, Code::Lite, Dev-CPP, Eclipse, Unity3D.</p>"
 					;
 				else if (answer == 7) object.innerHTML += // Internships
-					  "<p>El seu treball durant les pràctiques en <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a> va consistir principalment en desenvolupar millores i ferramentes per al motor de l'empresa, utilitzant el llenguatge de programació C++. Entre altres, podem destacar:</br>- La creació d'un empaquetador d'arxius i la inclusió del corresponent desempaquetador al motor. </br>- La creació de funciones per a donar suport al motor per utilitzar caràcters UTF-8.</br>- El desenvolupament d'un editor d'escenes 3D utilitzant el motor de l'empresa com a base, capaç de manipular models, càmeres, llums i terrenys.</p>"
-					+ "<p>Actualment el seu treball en l'empresa, donat el canvi de romb que aquesta ha pres, consisteix en realitzar tasques de QA per a videojocs de les plataformes de Sony (PS3, PS4 y Vita) sota el nom de <a href='http://www.lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, i ha treballat en títols com: <a href='http://spelunkyworld.com/' target='_blank'>Spelunky</a> (PS3, Vita) i <a href='http://fezgame.com/' target='_blank'>FEZ</a> (PS3, PS4, Vita), entre d'altres.<p>"
-					+ "<p>Si té interès, pot <u><a href='mailto:"+WriteEmail("info","ninjafever.com")+"'>contactar amb l'empresa</a></u> per demanar referències.</p>"
+					  "<p>El seu treball durant les prÃ ctiques en <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a> va consistir principalment en desenvolupar millores i ferramentes per al motor de l'empresa, utilitzant el llenguatge de programaciÃ³ C++. Entre altres, podem destacar:</br>- La creaciÃ³ d'un empaquetador d'arxius i la inclusiÃ³ del corresponent desempaquetador al motor. </br>- La creaciÃ³ de funciones per a donar suport al motor per utilitzar carÃ cters UTF-8.</br>- El desenvolupament d'un editor d'escenes 3D utilitzant el motor de l'empresa com a base, capaÃ§ de manipular models, cÃ meres, llums i terrenys.</p>"
+					+ "<p>Actualment el seu treball en l'empresa, donat el canvi de romb que aquesta ha pres, consisteix en realitzar tasques de QA per a videojocs de les plataformes de Sony (PS3, PS4 y Vita) sota el nom de <a href='http://www.lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, i ha treballat en tÃ­tols com: <a href='http://spelunkyworld.com/' target='_blank'>Spelunky</a> (PS3, Vita) i <a href='http://fezgame.com/' target='_blank'>FEZ</a> (PS3, PS4, Vita), entre d'altres.<p>"
+					+ "<p>Si tÃ© interÃ¨s, pot <u><a href='mailto:"+WriteEmail("info","ninjafever.com")+"'>contactar amb l'empresa</a></u> per demanar referÃ¨ncies.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>D'idiomes no es pot fir que vaja malament. És bilingüe en castellà i català, té el títol de Mestre de Valencià, i amb l'anglès no es defensa malament, encara que sent sincers se li dona millor l'escrit que l'oral.</p>"
+					  "<p>D'idiomes no es pot fir que vaja malament. Ã‰s bilingÃ¼e en castellÃ  i catalÃ , tÃ© el tÃ­tol de Mestre de ValenciÃ , i amb l'anglÃ¨s no es defensa malament, encara que sent sincers se li dona millor l'escrit que l'oral.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
-					  "<p>Pot escriure-li un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. El revisa prou sovint, així que no crec que tarde en contestar-li.</p>"
+					  "<p>Pot escriure-li un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. El revisa prou sovint, aixÃ­ que no crec que tarde en contestar-li.</p>"
 					;
 				else if (answer == 6) object.innerHTML += // trust you?
-					  "<p>Per descomptat! Sempre intente anar amb la veritat en la mà, tant per les coses bones com per les roïnes. A més, ara que Églomer no està per ací, què m'impedeix parlar amb claredat?</p>"
+					  "<p>Per descomptat! Sempre intente anar amb la veritat en la mÃ , tant per les coses bones com per les roÃ¯nes. A mÃ©s, ara que Ã‰glomer no estÃ  per acÃ­, quÃ¨ m'impedeix parlar amb claredat?</p>"
 					;
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>Qui és?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,2);'>Quins estudis té?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,3);'>Quina experiència té?</a></span></br>"
+					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>Qui Ã©s?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,2);'>Quins estudis tÃ©?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,3);'>Quina experiÃ¨ncia tÃ©?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,7);'>Parlam del seu treball en Ninja Fever.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,4);'>I com va d'idiomes?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,5);'>Com puc contactar amb ell?</a></span></br>"
@@ -260,27 +256,27 @@
 				object.style.maxWidth = "400px";
 				if (answer == 0) object.innerHTML += "Pot preguntar-me el que vulga.</br>";
 				else if (answer == 1) object.innerHTML += // Who are you?
-					  "<p>Sóc Zippo, <del>el becari contractat per servir café</del> l'ajudant personal d'Églomer i la seua imatge representativa des de l'any 2008. M'agrada passejar, fer paracaigudisme i viatjar, encara que actualment no dispose de molt de temps per fer-ho.</p>"
+					  "<p>SÃ³c Zippo, <del>el becari contractat per servir cafÃ©</del> l'ajudant personal d'Ã‰glomer i la seua imatge representativa des de l'any 2008. M'agrada passejar, fer paracaigudisme i viatjar, encara que actualment no dispose de molt de temps per fer-ho.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // What are you?
-					  "<p>Sóc un membre d'una raça desconeguda, part del món imaginari d'una de les històries que Églomer va escriure fa temps.</p>"
+					  "<p>SÃ³c un membre d'una raÃ§a desconeguda, part del mÃ³n imaginari d'una de les histÃ²ries que Ã‰glomer va escriure fa temps.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Why are you here?
-					  "<p>Doncs, tenint en compte la crisi mundial en la que estem, inclòs els sers imaginaris ens hem tingut que buscar la vida per eixir endavant.</p>"
+					  "<p>Doncs, tenint en compte la crisi mundial en la que estem, inclÃ²s els sers imaginaris ens hem tingut que buscar la vida per eixir endavant.</p>"
 					;
 				
 				
 				object.innerHTML +=
 					  "<span class='option'>&raquo; <a href='javascript:Option(2,1);'>Qui eres?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>Què eres exactament?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,3);'>Per què estàs ací?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>QuÃ¨ eres exactament?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,3);'>Per quÃ¨ estÃ s acÃ­?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(0,1);'>Parlem d'un altra cosa.</a></span></br>";
 			}
 			
 			object.innerHTML +=
 				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>Podries amagar-te, per favor?</a></span></br>"
 				+ "<span class='option'>&raquo; <a href='javascript:Translate(1);'>Talk me in English, please.</a></span></br>"
-				+ "<span class='option'>&raquo; <a href='javascript:Translate(0);'>Háblame en Español, por favor.</a></span></br>";
+				+ "<span class='option'>&raquo; <a href='javascript:Translate(0);'>HÃ¡blame en EspaÃ±ol, por favor.</a></span></br>";
 		} 
 	}
 		
@@ -303,8 +299,8 @@
 			object.innerHTML = "Cerrar";
 			
 			object = document.getElementById("head");
-			object.innerHTML = "El Taller de Églomer";
-			document.title = "El Taller de Églomer";
+			object.innerHTML = "El Taller de Ã‰glomer";
+			document.title = "El Taller de Ã‰glomer";
 					
 			object = document.getElementById("hidded");
 			object.innerHTML = "LLAMAR A ZIPPO";	
@@ -317,74 +313,74 @@
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "El ahorcado";
 			object = document.getElementById("hangman_t");
-			object.innerHTML = "Clásico";
+			object.innerHTML = "ClÃ¡sico";
 			object = document.getElementById("hangman_d");
-			object.innerHTML = "¡De tu libreta a tu Android! Disfruta como nunca del juego de toda la vida.";
+			object.innerHTML = "Â¡De tu libreta a tu Android! Disfruta como nunca del juego de toda la vida.";
 			
 			object = document.getElementById("tictactoe_n");
 			object.innerHTML = "Tres en raya";
 			object = document.getElementById("tictactoe_t");
-			object.innerHTML = "Clásico";
+			object.innerHTML = "ClÃ¡sico";
 			object = document.getElementById("tictactoe_d");
-			object.innerHTML = "Atrévete a jugar a este divertido clásico, ahora para tu dispositivo Android.";
+			object.innerHTML = "AtrÃ©vete a jugar a este divertido clÃ¡sico, ahora para tu dispositivo Android.";
 			
 			object = document.getElementById("halguens_t");
-			object.innerHTML = "MMORPG estático";
+			object.innerHTML = "MMORPG estÃ¡tico";
 			object = document.getElementById("halguens_d");
-			object.innerHTML = "Dragones y Fénix. Dos razas enfrentadas desde el albor de los tiempos y cuya guerra perdura hasta nuestros días. ¡Únete al bando que más te guste y colabora en la guerra para llevar a tus aliados hacia la victoria!";
+			object.innerHTML = "Dragones y FÃ©nix. Dos razas enfrentadas desde el albor de los tiempos y cuya guerra perdura hasta nuestros dÃ­as. Â¡Ãšnete al bando que mÃ¡s te guste y colabora en la guerra para llevar a tus aliados hacia la victoria!";
 			
 			object = document.getElementById("swordmaster_t");
 			object.innerHTML = "Reflejos, Lucha, Arcade";
 			object = document.getElementById("swordmaster_d");
-			object.innerHTML = "Conviértete en un samurai y empuña tu katana para vencer a tu adversario en un duelo a muerte. Sólo escuchando tu voz interior te alzarás con la victoria en este entretenido juego que mezcla lucha y reflejos, y que fue ganador del tercer puesto del Scenery Beta 2011.";
+			object.innerHTML = "ConviÃ©rtete en un samurai y empuÃ±a tu katana para vencer a tu adversario en un duelo a muerte. SÃ³lo escuchando tu voz interior te alzarÃ¡s con la victoria en este entretenido juego que mezcla lucha y reflejos, y que fue ganador del tercer puesto del Scenery Beta 2011.";
 			
 			object = document.getElementById("gravity_t");
 			object.innerHTML = "Arcade, Habilidad, OnLine";
 			object = document.getElementById("gravity_d");
-			object.innerHTML = "Huye de los enemigos tanto tiempo como puedas, o haz que choquen con las paredes para deshacerte de ellos y superar el nivel. Incluye un sistema de carga de música por archivos externos '.mp3' y ranking online.";
+			object.innerHTML = "Huye de los enemigos tanto tiempo como puedas, o haz que choquen con las paredes para deshacerte de ellos y superar el nivel. Incluye un sistema de carga de mÃºsica por archivos externos '.mp3' y ranking online.";
 			
 			object = document.getElementById("lightsout_t");
 			object.innerHTML = "Puzle";
 			object = document.getElementById("lightsout_d");
-			object.innerHTML = "Apaga todas las luces del tablero... si puedes. Todo un clásico ahora disponible para la Nintendo DS. Ganador del quinto puesto del Scenery Beta 2009.";
+			object.innerHTML = "Apaga todas las luces del tablero... si puedes. Todo un clÃ¡sico ahora disponible para la Nintendo DS. Ganador del quinto puesto del Scenery Beta 2009.";
 			
 			object = document.getElementById("mysdiads_d");
-			object.innerHTML = "Prueba de concepto de MMORPG con implementación del sistema de creación de cuentas y personajes, chat, y posicionamiento y animación de hasta cien personajes, tanto en el mundo como en el mapa.";
+			object.innerHTML = "Prueba de concepto de MMORPG con implementaciÃ³n del sistema de creaciÃ³n de cuentas y personajes, chat, y posicionamiento y animaciÃ³n de hasta cien personajes, tanto en el mundo como en el mapa.";
 			
 			object = document.getElementById("fungus_d");
-			object.innerHTML = "Programa que permite enviar correos electrónicos haciendo uso de una cuenta de Gmail, con la diferencia de que podemos cambiar el nombre que se mostrará al receptor. También permite administrar tu cuenta de Gmail mediante comandos IMAP.";
+			object.innerHTML = "Programa que permite enviar correos electrÃ³nicos haciendo uso de una cuenta de Gmail, con la diferencia de que podemos cambiar el nombre que se mostrarÃ¡ al receptor. TambiÃ©n permite administrar tu cuenta de Gmail mediante comandos IMAP.";
 			
 			object = document.getElementById("stormalarm_t");
-			object.innerHTML = "Meteorología";
+			object.innerHTML = "MeteorologÃ­a";
 			object = document.getElementById("stormalarm_d");
-			object.innerHTML = "Programa que analiza los mapas de la AEMET (Asociación Estatal de Meteorología) y que, entre otras opciones, nos avisa en caso de haber núcleos convectivos o tormenta cerca de la posición que definamos como zona de alarma.";
+			object.innerHTML = "Programa que analiza los mapas de la AEMET (AsociaciÃ³n Estatal de MeteorologÃ­a) y que, entre otras opciones, nos avisa en caso de haber nÃºcleos convectivos o tormenta cerca de la posiciÃ³n que definamos como zona de alarma.";
 			
 			object = document.getElementById("himitsu_t");
 			object.innerHTML = "Encriptador";
 			object = document.getElementById("himitsu_d");
-			object.innerHTML = "Programa que permite codificar y decodificar mensajes de texto, ya sea escribiéndolos directamente en el programa o mediante archivos '.txt'.";
+			object.innerHTML = "Programa que permite codificar y decodificar mensajes de texto, ya sea escribiÃ©ndolos directamente en el programa o mediante archivos '.txt'.";
 			
 			object = document.getElementById("workshop_n");
-			object.innerHTML = "El Taller de Églomer";
+			object.innerHTML = "El Taller de Ã‰glomer";
 			object = document.getElementById("workshop_d");
-			object.innerHTML = "Portfolio personal de Javier Moya Nájera. Se adapta automáticamente al idioma del navegador y está realizado combinando XHTML, CSS y Javascript. ¡Siéntete libre de visualizar su código fuente si quieres!";
+			object.innerHTML = "Portfolio personal de Javier Moya NÃ¡jera. Se adapta automÃ¡ticamente al idioma del navegador y estÃ¡ realizado combinando XHTML, CSS y Javascript. Â¡SiÃ©ntete libre de visualizar su cÃ³digo fuente si quieres!";
 			
 			object = document.getElementById("chdk_t");
-			object.innerHTML = "Meteorología";
+			object.innerHTML = "MeteorologÃ­a";
 			object = document.getElementById("chdk_d");
-			object.innerHTML = "Script para el hack de Canon (CHDK) que añade a nuestra cámara la posibilidad de crear timelapses, cazar rayos o ambas cosas, pudiendo establecer la hora de inicio de cada modo.";
+			object.innerHTML = "Script para el hack de Canon (CHDK) que aÃ±ade a nuestra cÃ¡mara la posibilidad de crear timelapses, cazar rayos o ambas cosas, pudiendo establecer la hora de inicio de cada modo.";
 			
 			object = document.getElementById("intercultural_n");
-			object.innerHTML = "La construcción de la escuela intercultural inclusiva desde procesos de investigación-acción";
+			object.innerHTML = "La construcciÃ³n de la escuela intercultural inclusiva desde procesos de investigaciÃ³n-acciÃ³n";
 			object = document.getElementById("intercultural_t");
-			object.innerHTML = "Educación";
+			object.innerHTML = "EducaciÃ³n";
 			object = document.getElementById("intercultural_d");
-			object.innerHTML = "Diseño técnico y gráfico del CD que acompaña a esta investigación publicada dentro de la colección <em>e-educació</em> de la Universidad Jaume I de Castellón de la Plana.";
+			object.innerHTML = "DiseÃ±o tÃ©cnico y grÃ¡fico del CD que acompaÃ±a a esta investigaciÃ³n publicada dentro de la colecciÃ³n <em>e-educaciÃ³</em> de la Universidad Jaume I de CastellÃ³n de la Plana.";
 			
 			object = document.getElementById("nemorak_t");
 			object.innerHTML = "Libros";
 			object = document.getElementById("nemorak_d");
-			object.innerHTML = "La tranquila vida de Darko cambia drásticamente cuando una peligrosa organización contacta con él y le obliga a retomar su antigua vida de asesino a sueldo. Mientras tanto Julio, un adolescente aficionado a los juegos de lógica, disfruta con sus amigos sin saber el agitado destino que le aguarda. Dos mundos distintos que confluyen inesperadamente y que desencadenan en una frenética historia de acción y misterio cuyo nexo de unión sólo tiene un nombre: Némorak.";
+			object.innerHTML = "La tranquila vida de Darko cambia drÃ¡sticamente cuando una peligrosa organizaciÃ³n contacta con Ã©l y le obliga a retomar su antigua vida de asesino a sueldo. Mientras tanto Julio, un adolescente aficionado a los juegos de lÃ³gica, disfruta con sus amigos sin saber el agitado destino que le aguarda. Dos mundos distintos que confluyen inesperadamente y que desencadenan en una frenÃ©tica historia de acciÃ³n y misterio cuyo nexo de uniÃ³n sÃ³lo tiene un nombre: NÃ©morak.";
 			
 			object = document.getElementById("otherplatforms");
 			object.innerHTML = "Otras Plataformas";
@@ -401,8 +397,8 @@
 			object.innerHTML = "Close";
 					
 			object = document.getElementById("head");
-			object.innerHTML = "Églomer's Workshop";
-			document.title = "Églomer's Workshop";
+			object.innerHTML = "Ã‰glomer's Workshop";
+			document.title = "Ã‰glomer's Workshop";
 					
 			object = document.getElementById("hidded");
 			object.innerHTML = "CALL ZIPPO";
@@ -462,9 +458,9 @@
 			object.innerHTML = "Program that can encode and decode text messages, either by typing directly in the program or using '.txt' files.";
 			
 			object = document.getElementById("workshop_n");
-			object.innerHTML = "Églomer's Workshop";
+			object.innerHTML = "Ã‰glomer's Workshop";
 			object = document.getElementById("workshop_d");
-			object.innerHTML = "Personal portfolio of Javier Moya Nájera. It adapts automatically to browser language and it was made by mixing XHTML, CSS and Javascript. Feel free to view its Source Code if you want!";
+			object.innerHTML = "Personal portfolio of Javier Moya NÃ¡jera. It adapts automatically to browser language and it was made by mixing XHTML, CSS and Javascript. Feel free to view its Source Code if you want!";
 			
 			object = document.getElementById("chdk_t");
 			object.innerHTML = "Meteorology";
@@ -476,12 +472,12 @@
 			object = document.getElementById("intercultural_t");
 			object.innerHTML = "Education";
 			object = document.getElementById("intercultural_d");
-			object.innerHTML = "Technical and graphical design of the CD that accompanies this research published into the collection <em>e-educació</em> of Jaume I University from Castelló de la Plana.";
+			object.innerHTML = "Technical and graphical design of the CD that accompanies this research published into the collection <em>e-educaciÃ³</em> of Jaume I University from CastellÃ³ de la Plana.";
 			
 			object = document.getElementById("nemorak_t");
 			object.innerHTML = "Books";
 			object = document.getElementById("nemorak_d");
-			object.innerHTML = "The quiet Darko's life changes drastically when a dangerous organization contact him and forces him to resume his old life of murderer. Meanwhile Julio, a teenage fan of puzzle games, enjoys with his friends without knowing the agitated fate that awaits him. Two different worlds who unexpectedly come together to trigger a frenzy story of action and mistery and which link has only one name: Némorak.";
+			object.innerHTML = "The quiet Darko's life changes drastically when a dangerous organization contact him and forces him to resume his old life of murderer. Meanwhile Julio, a teenage fan of puzzle games, enjoys with his friends without knowing the agitated fate that awaits him. Two different worlds who unexpectedly come together to trigger a frenzy story of action and mistery and which link has only one name: NÃ©morak.";
 			
 			object = document.getElementById("otherplatforms");
 			object.innerHTML = "Other Platforms";
@@ -498,8 +494,8 @@
 			object.innerHTML = "Tancar";
 			
 			object = document.getElementById("head");
-			object.innerHTML = "El Taller d'Églomer";
-			document.title = "El Taller d'Églomer";
+			object.innerHTML = "El Taller d'Ã‰glomer";
+			document.title = "El Taller d'Ã‰glomer";
 					
 			object = document.getElementById("hidded");
 			object.innerHTML = "CRIDAR A ZIPPO";
@@ -511,74 +507,74 @@
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "El penjat";
 			object = document.getElementById("hangman_t");
-			object.innerHTML = "Clàssic";
+			object.innerHTML = "ClÃ ssic";
 			object = document.getElementById("hangman_d");
 			object.innerHTML = "De la teua llibreta al teu Android! Gaudeix com mai del joc de tota la vida.";
 			
 			object = document.getElementById("tictactoe_n");
-			object.innerHTML = "Tres en línia";
+			object.innerHTML = "Tres en lÃ­nia";
 			object = document.getElementById("tictactoe_t");
-			object.innerHTML = "Clàssic";
+			object.innerHTML = "ClÃ ssic";
 			object = document.getElementById("tictactoe_d");
-			object.innerHTML = "Atreveix-te a jugar a aquest divertit clàssic, ara disponible per al teu dispositiu Android";
+			object.innerHTML = "Atreveix-te a jugar a aquest divertit clÃ ssic, ara disponible per al teu dispositiu Android";
 			
 			object = document.getElementById("halguens_t");
-			object.innerHTML = "MMORPG estàtic";
+			object.innerHTML = "MMORPG estÃ tic";
 			object = document.getElementById("halguens_d");
-			object.innerHTML = "Dragons i Fènix. Dos races enfrontades des de l'albor dels temps i la guerra dels quals perdura encara hui dia. Uneix-te a la facció que més t'agrade i col·labora en la guerra per dur als teus aliats a la victòria!";
+			object.innerHTML = "Dragons i FÃ¨nix. Dos races enfrontades des de l'albor dels temps i la guerra dels quals perdura encara hui dia. Uneix-te a la facciÃ³ que mÃ©s t'agrade i colÂ·labora en la guerra per dur als teus aliats a la victÃ²ria!";
 			
 			object = document.getElementById("swordmaster_t");
 			object.innerHTML = "Reflexos, Lluita, Arcade";
 			object = document.getElementById("swordmaster_d");
-			object.innerHTML = "Converteix-te en un samurai i blandeix la katana per véncer al teu adversari en una lluita a mort. Tan sols escoltant la teua veu interior aconseguiràs guanyar en aquest entretingut joc que barreja lluita i reflexes, i que va guanyar el tercer premi de l'Scenery Beta 2011.";
+			object.innerHTML = "Converteix-te en un samurai i blandeix la katana per vÃ©ncer al teu adversari en una lluita a mort. Tan sols escoltant la teua veu interior aconseguirÃ s guanyar en aquest entretingut joc que barreja lluita i reflexes, i que va guanyar el tercer premi de l'Scenery Beta 2011.";
 			
 			object = document.getElementById("gravity_t");
 			object.innerHTML = "Arcade, Habilitat, OnLine";
 			object = document.getElementById("gravity_d");
-			object.innerHTML = "Escapa dels enemics tant de temps com pugues, o fes que xoquen contra les parets per desfer-te d'ells i superar el nivell. Inclou un sistema de càrrega de música per arxius '.mp3' i ranking online.";
+			object.innerHTML = "Escapa dels enemics tant de temps com pugues, o fes que xoquen contra les parets per desfer-te d'ells i superar el nivell. Inclou un sistema de cÃ rrega de mÃºsica per arxius '.mp3' i ranking online.";
 			
 			object = document.getElementById("lightsout_t");
 			object.innerHTML = "Puzle";
 			object = document.getElementById("lightsout_d");
-			object.innerHTML = "Apaga totes les llums del tauler... si pots. Tot un clàssic ara disponible per la Nintendo DS. Guanyador del cinquè premi de l'Scenery Beta 2009.";
+			object.innerHTML = "Apaga totes les llums del tauler... si pots. Tot un clÃ ssic ara disponible per la Nintendo DS. Guanyador del cinquÃ¨ premi de l'Scenery Beta 2009.";
 			
 			object = document.getElementById("mysdiads_d");
-			object.innerHTML = "Proba de concepte d'un MMORPG amb implementació del sistema de creació de comptes i personatges, xat, i posicionament i animació de fins a cent personatges alhora, tant al món com al mapa.";
+			object.innerHTML = "Proba de concepte d'un MMORPG amb implementaciÃ³ del sistema de creaciÃ³ de comptes i personatges, xat, i posicionament i animaciÃ³ de fins a cent personatges alhora, tant al mÃ³n com al mapa.";
 			
 			object = document.getElementById("fungus_d");
-			object.innerHTML = "Programa que permet enviar correus electrònics mitjançant un compte de Gmail, amb la diferència de que podem canviar el nom que es mostrarà al receptor. També permet administrar el teu compte de Gmail fent ús d'ordres IMAP.";
+			object.innerHTML = "Programa que permet enviar correus electrÃ²nics mitjanÃ§ant un compte de Gmail, amb la diferÃ¨ncia de que podem canviar el nom que es mostrarÃ  al receptor. TambÃ© permet administrar el teu compte de Gmail fent Ãºs d'ordres IMAP.";
 			
 			object = document.getElementById("stormalarm_t");
 			object.innerHTML = "Meteorologia";
 			object = document.getElementById("stormalarm_d");
-			object.innerHTML = "Programa que analitza els mapes de l'AEMET (Associació Estatal de Meteorologia) i que ens avisa en cas d'haver-hi nuclis convectius o tempesta a prop de la posició definida com zona d'alarma.";
+			object.innerHTML = "Programa que analitza els mapes de l'AEMET (AssociaciÃ³ Estatal de Meteorologia) i que ens avisa en cas d'haver-hi nuclis convectius o tempesta a prop de la posiciÃ³ definida com zona d'alarma.";
 			
 			object = document.getElementById("himitsu_t");
 			object.innerHTML = "Encriptador";
 			object = document.getElementById("himitsu_d");
-			object.innerHTML = "Programa que permet codificar i descodificar missatges de text, ja siga escrivint-los directament al programa o mitjançant arxius '.txt'.";
+			object.innerHTML = "Programa que permet codificar i descodificar missatges de text, ja siga escrivint-los directament al programa o mitjanÃ§ant arxius '.txt'.";
 			
 			object = document.getElementById("workshop_n");
-			object.innerHTML = "El Taller d'Églomer";
+			object.innerHTML = "El Taller d'Ã‰glomer";
 			object = document.getElementById("workshop_d");
-			object.innerHTML = "Portfolio personal de Javier Moya Nájera. S'adapta automàticament a l'idioma del navegador i està realitzat combinant XHTML, CSS i Javascript. Ets lliure de visualitzar el seu codi font si vols!";
+			object.innerHTML = "Portfolio personal de Javier Moya NÃ¡jera. S'adapta automÃ ticament a l'idioma del navegador i estÃ  realitzat combinant XHTML, CSS i Javascript. Ets lliure de visualitzar el seu codi font si vols!";
 			
 			object = document.getElementById("chdk_t");
 			object.innerHTML = "Meteorologia";
 			object = document.getElementById("chdk_d");
-			object.innerHTML = "Script per al hack de Canon (CHDK) que afegix a la nostra càmera la possibilitat de crear timelapses, caçar raigs o ambdues coses establint l'hora d'inici de cada mode.";
+			object.innerHTML = "Script per al hack de Canon (CHDK) que afegix a la nostra cÃ mera la possibilitat de crear timelapses, caÃ§ar raigs o ambdues coses establint l'hora d'inici de cada mode.";
 			
 			object = document.getElementById("intercultural_n");
-			object.innerHTML = "La construcció de l'escola intercultural inclusiva des de processos d'investigació-acció";
+			object.innerHTML = "La construcciÃ³ de l'escola intercultural inclusiva des de processos d'investigaciÃ³-acciÃ³";
 			object = document.getElementById("intercultural_t");
-			object.innerHTML = "Educació";
+			object.innerHTML = "EducaciÃ³";
 			object = document.getElementById("intercultural_d");
-			object.innerHTML = "Disseny tècnic i gràfic del CD que acompanya a aquesta investigació publicada dins la col·lecció <em>e-educació</em> de la Universitat Jaume I de Castelló de la Plana.";
+			object.innerHTML = "Disseny tÃ¨cnic i grÃ fic del CD que acompanya a aquesta investigaciÃ³ publicada dins la colÂ·lecciÃ³ <em>e-educaciÃ³</em> de la Universitat Jaume I de CastellÃ³ de la Plana.";
 			
 			object = document.getElementById("nemorak_t");
 			object.innerHTML = "Llibres";
 			object = document.getElementById("nemorak_d");
-			object.innerHTML = "La tranquil·la vida de Darko canvia dràsticament quan una perillosa organització contacta amb ell i l'obliga a reprendre la seua antiga vida d'assassí a sou. Mentres tant Julio, un adolescent aficionat als jocs de lògica, gaudeix amb els seus amics sense saber l'agitat destí que l'espera. Dos móns distints que conflueixen inesperadament i que desencadenen en una frenètica història d'acció i misteri, i dels quals el nexe només té un nom: Némorak.";
+			object.innerHTML = "La tranquilÂ·la vida de Darko canvia drÃ sticament quan una perillosa organitzaciÃ³ contacta amb ell i l'obliga a reprendre la seua antiga vida d'assassÃ­ a sou. Mentres tant Julio, un adolescent aficionat als jocs de lÃ²gica, gaudeix amb els seus amics sense saber l'agitat destÃ­ que l'espera. Dos mÃ³ns distints que conflueixen inesperadament i que desencadenen en una frenÃ¨tica histÃ²ria d'acciÃ³ i misteri, i dels quals el nexe nomÃ©s tÃ© un nom: NÃ©morak.";
 			
 			object = document.getElementById("otherplatforms");
 			object.innerHTML = "Altres Plataformes";
@@ -607,7 +603,7 @@
 		objetc = document.getElementById("talking");
 				
 		// Set bye message
-		if (lang == 0) objetc.innerHTML = "Por supuesto.</br>Si me necesita, llámeme.";
+		if (lang == 0) objetc.innerHTML = "Por supuesto.</br>Si me necesita, llÃ¡meme.";
 		else if (lang == 1) objetc.innerHTML = "Of course.</br>If you need me, call me.";
 		else if (lang == 2) objetc.innerHTML = "Per descomptat.</br>Si em necessita, cridem";
 				
@@ -625,9 +621,9 @@
 		objetc = document.getElementById("talking");
 		
 		// Set bye message
-		if (lang == 0) objetc.innerHTML = "Si necesita cualquier cosa avíseme.</br>¡Disfrute de su estancia!";
+		if (lang == 0) objetc.innerHTML = "Si necesita cualquier cosa avÃ­seme.</br>Â¡Disfrute de su estancia!";
 		else if (lang == 1) objetc.innerHTML = "Call me if needed.</br>Enjoy!";
-		else if (lang == 2) objetc.innerHTML = "Avisem si em necessita.</br>Passe-ho bé!";
+		else if (lang == 2) objetc.innerHTML = "Avisem si em necessita.</br>Passe-ho bÃ©!";
 				
 		// Hide talking window and reset Zippo's message after a few seconds
 		setTimeout('Hide("talking")', 3000);  

@@ -1,4 +1,4 @@
-//<![CDATA[
+﻿//<![CDATA[
 	// Global variables
 	var lang = -1; // Language (0 es, 1 en, 2 ca)
 	var answer = 0;
