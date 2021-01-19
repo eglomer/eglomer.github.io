@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- Wellcome to my workshop source code. Enjoy it! :D  -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<meta name="Author" content="Javier Moya N&aacute;jera" />
+		<meta name="Keywords" content="eglomer, Javier Moya N&aacute;jera, programación, portfolio, programador, programming, programer" />
+		<meta name="Description" content="Javier Moya N&aacute;jera personal portfolio" />
+		<meta http-equiv="imagetoolbar" content="no" />
+
+		<title></title>
+		
+		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"  />
+		<link rel="stylesheet" type="text/css" href="index.css" /> <!-- CSS document -->
+		<script type="text/javascript" src="general.js"></script> <!-- Javascript document with general functions -->
+		<script type="text/javascript" src="content.js"></script> <!-- Javascript document with webpage content -->
+		<script type="text/javascript" src="cards.js"></script> <!-- Javascript document with projects content -->
+	</head>
+
+	
+	
+
+	<body id="main" onload="javascript:OpenWorkshop();">
+
+		<!-- Card-games part -->
+		<a id="close" href="javascript:HideCard();"></a>
+		<div id="card_bg" onclick="javascript:CheckOut(event, 'card');">
+			<div id="card"></div>
+		</div>
+		
+		
+		
+		<!-- Webpage part -->
+		<div id="head"></div>
+		
+		<div id="body"> <!-- highlight disabled on this section (see OpenWorkshop function) -->
+
+			<div class='title'>Android</div>
+				<div class='entries'>
+					<div class='entry' onclick='javascript:ShowCard("hangman");'>
+						<div class='logo'><img alt='hangman' src='https://dl.dropbox.com/u/971641/eglomer/img/hangman_mini.png'/></div>
+						<div class='content'>
+							<div class='name' id='hangman_n'></div>
+							<div class='type' id='hangman_t'></div>
+							<div class='description' id='hangman_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+					<hr/>
+
+					<div class='entry' onclick='javascript:ShowCard("tictactoe");'>
+						<div class='logo'><img alt='tictactoe' src='https://dl.dropbox.com/u/971641/eglomer/img/tictactoe_mini.png'/></div>
+						<div class='content'>
+							<div class='name' id='tictactoe_n'></div>
+							<div class='type' id='tictactoe_t'></div>
+							<div class='description' id='tictactoe_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			
+			<div style="clear:both;"></div>
+			
+			<div class='title'>Nintendo DS</div>
+				<div class='entries'>
+					<div class='entry' onclick='javascript:ShowCard("halguens");'>
+						<div class='logo'><img alt='halguens' src='https://dl.dropbox.com/u/971641/eglomer/img/halguens_mini.jpg'/></div>
+						<div class='content'>
+							<div class='name'>Halguens</div>
+							<div class='type' id='halguens_t'></div>
+							<div class='description' id='halguens_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+					<hr/>
+
+					<div class='entry' onclick='javascript:ShowCard("swordmaster");'>
+						<div class='logo'><img alt='swordmaster' src='https://dl.dropbox.com/u/971641/eglomer/img/swordmaster_mini.jpg'/></div>
+						<div class='content'>
+							<div class='name'>Sword Master</div>
+							<div class='type' id='swordmaster_t'></div>
+							<div class='description' id='swordmaster_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+					<hr/>
+
+					<div class='entry' onclick='javascript:ShowCard("gravity");'>
+						<div class='logo'><img alt='gravity' src='https://dl.dropbox.com/u/971641/eglomer/img/gravity_mini.jpg'/></div>
+						<div class='content'>
+							<div class='name'>Gravity</div>
+							<div class='type' id='gravity_t'></div>
+							<div class='description' id='gravity_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+					<hr/>
+
+					<div class='entry' onclick='javascript:ShowCard("lightsout");'>
+						<div class='logo'><img alt='lightsout' src='https://dl.dropbox.com/u/971641/eglomer/img/lightsout_mini.jpg'/></div>
+						<div class='content'>
+							<div class='name'>Lights Out!</div>
+							<div class='type' id='lightsout_t'></div>
+							<div class='description' id='lightsout_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+					<hr/>
+
+					<div class='entry' onclick='javascript:ShowCard("mysdiads");'>
+						<div class='logo'><img alt='mysdia' src='https://dl.dropbox.com/u/971641/eglomer/img/mysdia_mini.png'/></div>
+						<div class='content'>
+							<div class='name'>Mysdia DS</div>
+							<div class='type'>MMORPG</div>
+							<div class='description' id='mysdiads_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+				</div>
+
+				<div style="clear:both;"></div>
+
+				<div class='title'>PC</div>
+				<div class='entries'>
+					<div class='entry' onclick='javascript:ShowCard("fungus");'>
+						<div class='logo'><img alt='fungus' src='https://dl.dropbox.com/u/971641/eglomer/img/fungus_mini.png'/></div>
+						<div class='content'>
+							<div class='name'>Fungus</div>
+							<div class='type'>E-mail</div>
+							<div class='description' id='fungus_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+					<hr/>
+
+					<div class='entry' onclick='javascript:ShowCard("stormalarm");'>
+						<div class='logo'><img alt='stormalarm' src='https://dl.dropbox.com/u/971641/eglomer/img/stormalarm_mini.jpg'/></div>
+						<div class='content'>
+							<div class='name'>Storm Alarm</div>
+							<div class='type' id='stormalarm_t'></div>
+							<div class='description' id='stormalarm_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+
+					<hr/>
+
+					<div class='entry' onclick='javascript:ShowCard("himitsu");'>
+						<div class='logo'><img alt='himitsu' src='https://dl.dropbox.com/u/971641/eglomer/img/himitsu_mini.png'/></div>
+						<div class='content'>
+							<div class='name'>Himitsu</div>
+							<div class='type' id='himitsu_t'></div>
+							<div class='description' id='himitsu_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+
+				<div style="clear:both;"></div>
+
+				<div class='title'>Web</div>
+				<div class='entries'>
+					<div class='entry' onclick='javascript:SourceCode();'>
+						<div class='logo'><img alt='workshop' src='https://dl.dropbox.com/u/971641/eglomer/img/workshop_mini.png'/></div>
+						<div class='content'>
+							<div class='name' id='workshop_n'></div>
+							<div class='type'>Portfolio</div>
+							<div class='description' id='workshop_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+
+				<div style="clear:both;"></div>
+
+				<div class='title' id='otherplatforms'>Otras Plataformas</div>
+				<div class='entries'>
+					<div class='entry' onclick='javascript:ShowCard("stormchaserscript");'>
+						<div class='logo'><img alt='SCS' src='https://dl.dropbox.com/u/971641/eglomer/img/chdk_mini.png'/></div>
+						<div class='content'>
+							<div class='name'>Storm Chaser Script</div>
+							<div class='type' id='chdk_t'></div>
+							<div class='description' id='chdk_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+
+				<div style="clear:both;"></div>
+
+				<div class='title' id='publications'>Publicaciones</div>
+				<div class='entries'>
+					<div class='entry' onclick='javascript:ShowCard("intercultural");'>
+						<div class='logo'><img alt='intercultural' src='https://dl.dropbox.com/u/971641/eglomer/img/uji_mini.jpg'/></div>
+						<div class='content'>
+							<div class='name' id='intercultural_n'></div>
+							<div class='type' id='intercultural_t'></div>
+							<div class='description' id='intercultural_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+				
+				<div style="clear:both;"></div>
+
+				<div class='title' id='offtopic'>Offtopic</div>
+				<div class='entries'>
+					<div class='entry' onclick='javascript:ShowCard("nemorak");'>
+						<div class='logo'><img alt='nemorak' src='https://dl.dropbox.com/u/971641/eglomer/img/nemorak_mini.png'/></div>
+						<div class='content'>
+							<div class='name'>Némorak</div>
+							<div class='type' id='nemorak_t'></div>
+							<div class='description' id='nemorak_d'></div>
+						</div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+
+				<div style="clear:both;"></div>
+				<br/>
+		
+		
+		</div> 
+		
+		<div id="foot"></div>
+		
+		
+		
+		<!-- Left Zippo's menu part -->
+		<a href='javascript:TalkingZippo();'><img id="zippo" alt='zippo' src="./zippo.png" title=""/></a>
+		<div id="talking"></div>		
+		<div id="hidded" onclick="javascript:ShowZippo();" ></div> <!-- highlight disabled on this section (see OpenWorkshop function) -->
+		
+		
+	</body>
+</html>
