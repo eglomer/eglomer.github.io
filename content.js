@@ -471,72 +471,72 @@
 			object = document.getElementById("hangman_t");
 			object.innerHTML = "Classic";
 			object = document.getElementById("hangman_d");
-			object.innerHTML = "From your notebook to your Android! Enjoys like never of the classical game.";
+			object.innerHTML = "From your notebook to your Android! Enjoy like never before of this classical game.";
 			
 			object = document.getElementById("tictactoe_n");
 			object.innerHTML = "Tic Tac Toe";
 			object = document.getElementById("tictactoe_t");
 			object.innerHTML = "Classic";
 			object = document.getElementById("tictactoe_d");
-			object.innerHTML = "Dare to play to this fun classical, now for your Android gadget.";
+			object.innerHTML = "Dare yourself to play this fun classical game, now on your Android device.";
 			
 			object = document.getElementById("halguens_t");
 			object.innerHTML = "Static MMORPG";
 			object = document.getElementById("halguens_d");
-			object.innerHTML = "Dragons and Phoenix. These two races are fighting since the dawn of times and their war has continued ultil today. Join to one of them and fight to take your faction to victory!";
+			object.innerHTML = "Dragons and Phoenixes. These two races are fighting since the dawn of time and their war has continued until today. Join one of them and fight to take your faction to victory!";
 			
 			object = document.getElementById("swordmaster_t");
 			object.innerHTML = "Coordination, Fight, Arcade";
 			object = document.getElementById("swordmaster_d");
-			object.innerHTML = "Become yourself into a samurai and fight with your katana to win your adversary in a deathmatch. In this game, which mix fight and coordination, you only will win by listening your interior voice. Third place winner of Scenery Beta 2011.";
+			object.innerHTML = "Become yourself into a samurai and fight with your katana to defeat your adversary in a deathmatch. In this game, which mix fight and coordination, you will only win by listening to your interior voice. Third place winner of the Scenery Beta 2011 contest.";
 			
 			object = document.getElementById("gravity_t");
 			object.innerHTML = "Arcade, Ability, OnLine";
 			object = document.getElementById("gravity_d");
-			object.innerHTML = "Go away from enemies as long as you can, or do they collide with walls to destroy them and pass the level. It includes an external '.mp3' file loading system for music and an online ranking.";
+			object.innerHTML = "Flee from enemies as long as you can, or make them collide with walls to destroy them and pass to the next level. It includes an external '.mp3' file loading system for music and an online ranking.";
 			
 			object = document.getElementById("lightsout_t");
 			object.innerHTML = "Puzzle";
 			object = document.getElementById("lightsout_d");
-			object.innerHTML = "Turn off all lights of the board... if you can do it. A classic now available for Nintendo DS. Fifth place winner of Scenery Beta 2009.";
+			object.innerHTML = "Turn off all lights on the board... if you can do it! A classic game now available on your Nintendo DS. Fifth place winner of the Scenery Beta 2009 contest.";
 			
 			object = document.getElementById("mysdiads_d");
-			object.innerHTML = "An MMORPG proof of concept that implements an account and characters creation system, chat, and positioning and animation of until a hundred characters, both in the world and in the map.";
+			object.innerHTML = "An MMORPG's proof of concept that implements an account and characters creation system, chat, and positioning and animation of up to a hundred characters, both in the world and on the map.";
 			
 			object = document.getElementById("fungus_d");
-			object.innerHTML = "Program that allow us to send emails through a Gmail account, but with the difference that you can change the name that your receivers will see. The program allows you to manage your Gmail account through IMAP commands too.";
+			object.innerHTML = "A program that allows you to send emails through a Gmail account, but with the difference that you can change the name that your receivers will see. The program allows you to manage your Gmail account through IMAP commands too.";
 			
 			object = document.getElementById("stormalarm_t");
 			object.innerHTML = "Meteorology";
 			object = document.getElementById("stormalarm_d");
-			object.innerHTML = "An application which uses maps of AEMET (State Meteorology Association) for alert us when there's convective cells or storm near of the position marked as alarm zone.";
+			object.innerHTML = "An application that uses maps from the AEMET (State Meteorology Association) to alert us when there are convective cells or storms near the position marked as the alarm zone.";
 			
 			object = document.getElementById("himitsu_t");
 			object.innerHTML = "Encryptor";
 			object = document.getElementById("himitsu_d");
-			object.innerHTML = "Program that can encode and decode text messages, either by typing directly in the program or using '.txt' files.";
+			object.innerHTML = "A program that can encode and decode text messages, either by typing directly in the program or loading '.txt' files.";
 			
 			object = document.getElementById("workshop_n");
 			object.innerHTML = "Églomer's Workshop";
 			object = document.getElementById("workshop_d");
-			object.innerHTML = "Personal portfolio of Javier Moya Nájera. It adapts automatically to browser language and it was made by mixing XHTML, CSS and Javascript. Feel free to view its Source Code if you want!";
+			object.innerHTML = "The personal portfolio of Javier Moya Nájera. It adapts automatically to the browser language and it was made by mixing XHTML, CSS, and Javascript. Feel free to view its Source Code if you want!";
 			
 			object = document.getElementById("chdk_t");
 			object.innerHTML = "Meteorology";
 			object = document.getElementById("chdk_d");
-			object.innerHTML = "Script for Canon's hack (CHDK) that adds to our camera the ability of create timelapses, catch beams or both things by setting the start time of each mode.";
+			object.innerHTML = "Script for Canon's hack (CHDK) that adds to our camera the ability to create timelapses, thunder-hunting, or both by setting the start time of each mode.";
 			
 			object = document.getElementById("intercultural_n");
 			object.innerHTML = "Construction of the inclusive intercultural school from research-action processes";
 			object = document.getElementById("intercultural_t");
 			object.innerHTML = "Education";
 			object = document.getElementById("intercultural_d");
-			object.innerHTML = "Technical and graphical design of the CD that accompanies this research published into the collection <em>e-educació</em> of Jaume I University from Castelló de la Plana.";
+			object.innerHTML = "Technical and graphical design of the CD that accompanies this research published into the collection <em>e-educació</em> of Jaume I University of Castelló.";
 			
 			object = document.getElementById("nemorak_t");
 			object.innerHTML = "Books";
 			object = document.getElementById("nemorak_d");
-			object.innerHTML = "The quiet Darko's life changes drastically when a dangerous organization contact him and forces him to resume his old life of murderer. Meanwhile Julio, a teenage fan of puzzle games, enjoys with his friends without knowing the agitated fate that awaits him. Two different worlds who unexpectedly come together to trigger a frenzy story of action and mistery and which link has only one name: Némorak.";
+			object.innerHTML = "The quiet Darko's life changes drastically when a dangerous organization contacts him and forces him to resume his old slayer life. Meanwhile, Julio, a teenage fan of puzzle games, enjoys with his friends without knowing the agitated fate that awaits him. Two different worlds which unexpectedly come together to trigger a frenzied story of action and mystery and which link has only one name: Némorak.";
 			
 			object = document.getElementById("otherplatforms");
 			object.innerHTML = "Other Platforms";
