@@ -1109,12 +1109,10 @@
 		}
 		for (var i = 0; i < strings[id].media.video.count; ++i)
 		{
-			cardMedia += "<div>"
-				+ "			<a href='http://www.youtube.com/watch?v=" + strings[id].media.video.content[i] + "' target='_blank'>"
-				+ "				<img src='https://img.youtube.com/vi/" + strings[id].media.video.content[i] + "/hqdefault.jpg'/>"
-				+ "				<img src='./img/play.png' style='position:relative;top:-360px'>"
-				+ "			</a>"
-				+ "		</div>";
+			cardMedia += "<div style='height:360px; margin:5px;'>"
+				+ "	<img src='https://img.youtube.com/vi/" + strings[id].media.video.content[i] + "/hqdefault.jpg'/>"
+				+ "	<img src='./img/play.png' style='position:relative;top:-360px; cursor:pointer;' onclick='window.open(\"http://www.youtube.com/watch?v=" + strings[id].media.video.content[i] + "\", \"_blank\");'>"
+				+ "</div>";
 		}
 		
 		object.innerHTML = 
@@ -1176,6 +1174,65 @@
 		object.innerHTML="";
 
 		cardLoaded = ""; // Card Loaded none							
+	}
+	
+	// This funcion opens an URL
+	function OpenURL(id){
+		var url = "";
+		if (id == "arsonandplunder") {
+			url = "https://store.steampowered.com/app/293600/Arson_and_Plunder_Unleashed/";
+		} else if (id == "spelunky") {
+			url = "https://spelunkyworld.com/whatis.html";
+		} else if (id == "fez") {
+			url = "http://fezgame.com/";
+		} else if (id == "dontstarve") {
+			url = "https://www.kleientertainment.com/games/dont-starve";
+		} else if (id == "olliolli") {
+			url = "https://www.roll7.co.uk/olliolli";
+		} else if (id == "miniatlas") {
+			url = "https://www.ec-europe.com/es/productos/apps/app-miniatlas/";
+		} else if (id == "flipchart") {
+			url = "https://www.ec-europe.com/es/productos/apps/flipchart-maker/";
+		} else if (id == "motogpvideo" || id == "motogplive") {
+			url = "https://www.motogp.com/en/Apps";
+		} else if (id == "virtualarena") {
+			url = "https://apps.apple.com/app/id853749026";
+		} else if (id == "spelunky2") {
+			url = "https://store.steampowered.com/app/418530/Spelunky_2/";
+		} else if (id == "brokenage") {
+			url = "http://www.brokenagegame.com/";
+		} else if (id == "dos2") {
+			url = "https://divinity.game/age-verification";
+		} else if (id == "sor4") {
+			url = "https://www.streets4rage.com/";
+		} else if (id == "fmf") {
+			url = "https://cellardoorgames.com/our-games/full-metal-furies/";
+		} else if (id == "clicker") {
+			url = "https://www.clickerheroes.com/";
+		} else if (id == "invisible") {
+			url = "https://www.kleientertainment.com/games/invisible-inc";
+		} else if (id == "hammerwatch") {
+			url = "http://www.hammerwatch.com/";
+		} else if (id == "tjd") {
+			url = "https://www.thejourneydown.com/";
+		} else if (id == "deblob") {
+			url = "https://www.thqnordic.com/games/de-blob";
+		} else if (id == "deblob2") {
+			url = "https://www.thqnordic.com/games/de-blob-2";
+		} else if (id == "braid") {
+			url = "http://www.braid-game.com/";
+		} else if (id == "tricky") {
+			url = "http://trickytowers.com/";
+		} else if (id == "wargroove") {
+			url = "https://wargroove.com/";
+		} else if (id == "starbound") {
+			url = "https://playstarbound.com/";
+		}else {
+			return;
+		}
+		
+		window.open(url, '_blank');
+		
 	}
 	
 //]]>

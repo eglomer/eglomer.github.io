@@ -3,7 +3,7 @@
 	var lang = -1; // Language (0 es, 1 en, 2 ca)
 	var answer = 0;
 	var question = 0;	
-	
+	var isPro = false;
 	
 	// Initial functions	
 	function OpenWorkshop(){
@@ -11,7 +11,9 @@
 		GetLang();
 		Translate(lang);
 		DisableHighlight('body');
+		DisableHighlight('body_pro');
 		DisableHighlight('hidded');
+		SetPro(false);
 	}
 	
 	// Disable Highlight of an element

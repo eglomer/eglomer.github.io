@@ -5,8 +5,7 @@
 		answer = ans;
 		question = quest;
 		Translate(lang);
-	}
-	
+	}	
 	
 	// Generate Zippo's messages
 	function GetMessages (){
@@ -23,7 +22,7 @@
 				else if (answer == 1) object.innerHTML += "¿En qué puedo ayudarle?</br>";
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>Sólo quiero echar un vistazo.</a></span></br>"
+					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>Sólo quiero echar un vistazo, gracias.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Háblame de Églomer.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>Quiero saber más sobre ti.</a></span></br>";
 		
@@ -31,26 +30,22 @@
 				object.style.maxWidth = "800px";
 				if (answer == 0) object.innerHTML += "¿Qué quiere saber de Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer es en realidad Javier Moya Nájera, un valenciano de "+WriteAge()+" años apasionado por el mundo de los videojuegos y la tecnología, aunque también tiene otros hobbys como la escritura, la música y la meteorología.</p>"
-					+ "<p>Es trabajador, ordenado, disciplinado y tiene una GRAN facilidad para aprender, y poco más puedo decirle: esto es todo lo que ponía en el guión que me dio para preguntas como ésta.</p>"
+					  "<p>Églomer es en realidad Javier Moya Nájera, un valenciano de "+WriteAge()+" años apasionado por el mundo de los videojuegos y la tecnología, aunque también tiene otros hobbies como la escritura, la música y la meteorología.</p>"
+					+ "<p>Es trabajador, ordenado, disciplinado y tiene una gran facilidad para aprender, y poco más puedo decirle: esto es todo lo que ponía en el guión que me dio para preguntas como ésta.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
-					  "<p>Está diplomado en Magisterio Musical por la Universidad Jaume I de Castellón, habiendo conseguido todos los honores posibles. También estudió un año de Ingeniería Informática en la Universidad Politécnica de Valencia, y ha realizado cursos de programación en C/C++ y en Visual Basic en el Centro Ciencias de la Información de Castellón.</p>"
-					+ "<p>El curso pasado finalizó el Grado Superior de Desarrollo de Aplicaciones Multiplataforma (una de las variantes LOE del antiguo Ciclo Superior de Desarrollo de Aplicaciones Informáticas) en modalidad a distancia, con una nota media de 9'3, y actualmente está finalizando el Grado Superior de Desarrollo de Aplicaciones Web en la misma modalidad.</p>"
+					  "<p>Está diplomado en <em>Magisterio Musical</em> por la Universidad Jaume I de Castellón, habiendo conseguido todos los honores posibles. También estudió un año de <em>Ingeniería Informática</em> en la Universidad Politécnica de Valencia, y ha realizado <em>varios cursos de programación en C/C++ y en Visual Basic</em> en el Centro Ciencias de la Información de Castellón.</p>"
+					+ "<p>En 2013 finalizó el <em>Grado Superior de Desarrollo de Aplicaciones Multiplataforma</em> en modalidad a distancia, con una nota media de 9'3, y en 2014 el <em>Grado Superior de Desarrollo de Aplicaciones Web</em> en la misma modalidad, con una media de 8.57.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Experience
-					  "<p>Durante varios años ha estado desarrollando juegos y aplicaciones para el mundo de la Scene de la Nintendo DS, y ha ganado diversos premios por ello. También ha programado algunas aplicaciones para PC, y ha hecho también algún trabajo de índole profesional con muy buena aceptación.</p>"
-					+ "<p>Además de esto, durante el año 2013 realizó 400 horas de prácticas del Ciclo Superior de Desarrollo de Aplicaciones Multiplataforma en la empresa de videojuegos <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, donde trabaja actualmente.</p>"
-					+ "<p>Los lenguajes de programación con los que cuenta en su haber son: C/C++ (desde 2004), Visual Basic (desde 2005), SQL, XHTML, CSS, PHP y javascript (desde 2011 de manera formal), XML, java (desde 2012), C# (desde 2013).</p>"
-					+ "<p>Ha trabajado con los siguientes entornos: Visual Studio 2010, SQL Server 2005, MySQL, Code::Blocks, Code::Lite, Dev-CPP, Eclipse, Unity3D.</p>"
-					;
-				else if (answer == 7) object.innerHTML += // Internships
-					  "<p>Su trabajo en <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a> durante las prácticas consistió principalmente en desarrollar mejoras y herramientas para el motor de la empresa, utilizando el lenguaje de programación C++. Entre ellos, podemos destacar:</br>- La creación de un empaquetador de archivos y la inclusión del correspondiente desempaquetador en el motor.</br>- La creación de funciones para que el motor soportase caracteres UTF-8.</br>- El desarrollo de un editor de escenas 3D utilizando el motor como base, siendo éste capaz de manejar modelos, cámaras, luces y terrenos.</p>"
-					+ "<p>Actualmente su trabajo en la empresa, dado el cambio de rumbo que esta ha tomado, consiste en realizar labores de QA para videojuegos de las plataformas de Sony (PS3, PS4 y Vita) bajo el nombre de <a href='http://www.lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, habiendo trabajado en títulos como: <a href='http://spelunkyworld.com/' target='_blank'>Spelunky</a> (PS3, Vita) y <a href='http://fezgame.com/' target='_blank'>FEZ</a> (PS3, PS4, Vita), entre otros.<p>"
-					+ "<p>Si tiene interés en conocer más sobre el tema, puede <u><a href='mailto:"+WriteEmail("info","ninjafever.com")+"'>contactar con la empresa</a></u> para pedir referencias.</p>"
+					  "<p>Durante varios años estuvo desarrollando juegos y aplicaciones para el mundo de la Scene de la Nintendo DS, y ganó diversos premios por ello. También ha programado algunas aplicaciones para PC, móviles, e incluso para cámaras digitales.</p>"
+					+ "<p>Durante el año 2013 realizó 400 horas de prácticas en la empresa de videojuegos <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, donde pasó a formar parte de la plantilla poco tiempo después.</p>"
+					+ "<p>En 2014 Ninja Fever pasó a ser <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, en la que trabajó haciendo labores de QA en juegos como <em>OlliOlli</em> o <em>Don't Starve</em>.</p>"
+					+ "<p>Ese mismo año pasó a formar parte del equipo de Blit Software, desarrollando aplicaciones para dispositivos iOS como <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em> o <em>MiniAtlas</em>.</p>"
+					+ "<p>Desde 2015 está trabajando en BlitWorks realizando ports de grandes videojuegos como <em>Divinity: Original Sin II</em>, <em>Broken Age</em> o <em>Streets of Rage 4</em>. ¡Y también ha sido uno de los desarrolladores principales en <em>Spelunky 2</em>!</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>De idiomas no se puede decir que vaya mal. Es bilingüe en castellano y catalán, teniendo el título de Maestro de Valenciano, y con el inglés no se defiende mal, aunque siendo sinceros se le da mejor el escrito que el oral.</p>"
+					  "<p>De idiomas no se puede decir que vaya mal. Es bilingüe en castellano y catalán, y con el inglés no se defiende mal del todo, teniendo un nivel equivalente a un B1.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
 					  "<p>Puede escribirle un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. Lo revisa a menudo, así que no creo que tarde en contestar.</p>"
@@ -64,7 +59,6 @@
 					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>¿Quién es?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,2);'>¿Qué estudios tiene?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,3);'>¿Qué experiencia tiene?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,7);'>Háblame de su trabajo en Ninja Fever.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,4);'>¿Y cómo va de idiomas?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,5);'>¿Cómo puedo contactar con él?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,6);'>¿Estás siendo sincero conmigo?</a></span></br>"
@@ -75,13 +69,13 @@
 				object.style.maxWidth = "400px";
 				if (answer == 0) object.innerHTML += "Puede preguntarme lo que quiera.</br>";
 				else if (answer == 1) object.innerHTML += // Who are you?
-					  "<p>Soy Zippo, el <del>becario contratado para servir cafés</del> ayudante personal de Églomer y su imagen representativa desde el año 2008. Me gusta pasear, hacer paracaidismo y viajar, aunque actualmente no dispongo de mucho tiempo para ello.</p>"
+					  "<p>Soy Zippo, el <del>minion</del> ayudante personal de Églomer y su imagen representativa desde el año 2008. Me gusta pasear, hacer paracaidismo y viajar, aunque actualmente no dispongo de mucho tiempo para ello.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // What are you?
-					  "<p>Soy un miembro de una raza desconocida, parte del mundo imaginario de una de las historias que Églomer escribió hace tiempo.</p>"
+					  "<p>Soy un miembro de una raza desconocida, parte del mundo imaginario de una de las historias que Églomer escribió hace tiempo. No tengo extremidades ni torso, y aún así soy capaz de apañármelas con este taller de locura, ¡e incluso tomar notas!</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Why are you here?
-					  "<p>Bueno, teniendo en cuenta la crisis mundial en la que estamos, incluso los seres imaginarios nos hemos tenido que buscar la vida para poder subsistir.</p>"
+					  "<p>Bueno, teniendo en cuenta cómo está el mundo hoy en día, incluso los seres imaginarios nos hemos tenido que buscar la vida para poder subsistir. Églomer no paga demasiado, pero es suficiente para llevar una buena vida.</p>"
 					;
 				
 				
@@ -115,47 +109,42 @@
 				else if (answer == 1) object.innerHTML += "What could I do for you?</br>";
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>I want to take a look.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Talk me about Églomer.</a></span></br>"
+					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>I just want to take a look, thank you.</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Tell me more about Églomer.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>I want to know more about you.</a></span></br>";
 		
 			}else if (question == 1){ // Eglomer's menu
 				object.style.maxWidth = "800px";
 				if (answer == 0) object.innerHTML += "What do you want to know about Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer's real name is Javier Moya Nájera, a valencian one of "+WriteAge()+" years old that go mad with videogames and technology, though he has other hobbies like writing, music and meteorology.</p>"
-					+ "<p>He is hard-working, tidy, disciplined and has a GREAT facility to learn, and I couldn't tell you nothing more: this is everything what he wrote in the script that gave me to answer questions like this.</p>"
+					  "<p>Eglomer's real identity is Javier Moya Nájera, a "+WriteAge()+" years old person who loves videogames and technology, although he has also other hobbies like writing, play music, and meteorology</p>"
+					+ "<p>He is a hard-working, tidy, disciplined person, and he is also a really good learner. And I am afraid that is all can I say about him: this is all that he wrote me in the script for answering questions like this...</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
-					  "<p>He was graduated in Musical Teaching by Jaume I University from Castelló, and he got all honours in this. He also studied one year of IT Engineering in Technical University from Valencia, and he has realized some courses of programming in C/C ++ and Visual Basic in the Information Sciences Center from Castellón.</p>"
-					+ "<p>Last course he has finished the High Degree of Development of Multiplatform Applications (a LOE's variant of old Development IT Applications Superior Degree) in distance-learning modality, with an average of 9'3, and nowadays he is finishing the Development of Web Applications High Degree in the same modality.</p>"
+					  "<p>He graduated in <em>Musical Teaching</em> at Jaume I University from Castelló with all honors. He also studied the first year of <em>IT Engineering</em> at the Polytechnic University of Valencia, and he has also cursed some <em>courses of programming in C/C++ and Visual Basic</em> in the Information Sciences Center of Castelló.</p>"
+					+ "<p>In 2013 he finished the <em>Development of Multiplatform Applications</em>' high degree in distance-learning modality, with an average of 9,3, and in 2014 the <em>Development of Web Applications</em>' high degree in the same modality, with an average of 8,57.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Experience
-					  "<p>For several years he has been developing games and applications for the Nintendo DS Scene, and he has won some awards for it. He also has programmed some applications for PC and he has done some professional work with a very good acceptance.</p>"
-					+ "<p>In addition, during 2013 performed 400 hours because of the Development of Multiplatform Applications High Degree's Internships in the videogame's company <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, where he is working nowadays.</p>"
-					+ "<p>Programming languages that he know are: C/C++ (since 2004), Visual Basic (since 2005), SQL, XHTML, CSS, PHP and javascript (since 2011 formally), XML, java (since 2012), c# (since 2013).</p>"
-					+ "<p>He worked with these environments: Visual Studio 2010, SQL Server 2005, MySQL, Code::Blocks, Code::Lite, Dev-CPP, Eclipse, Unity3D.</p>"
-					;
-				else if (answer == 7) object.innerHTML += // Internships
-					  "<p>His work during the internships in <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a> was to develop improvements and tools for the company's engine, using the C++ language to do it. We can emphasize:</br>- The creation of a file packer and the inclusion of a file unpacker in the engine.</br>- The creation of functions for the engine to support UTF-8 characters.</br>- The development of a 3D Scene Editor using the engine as a base, which can handle models, cameras, lights and terrains.</p>"
-					+ "<p>Nowadays his work, due to internal changes into the company, consist in make QA task for Sony platforms videogames (PS3, PS4 and Vita), all under the <a href='http://www.lollipoprobot.com/' target='_blank'>Lollipop Robot</a> name. He has worked in titles like: <a href='http://spelunkyworld.com/' target='_blank'>Spelunky</a> (PS3, Vita) and <a href='http://fezgame.com/' target='_blank'>FEZ</a> (PS3, PS4, Vita), among others.<p>" 
-					+ "<p>If you are interested, you can <u><a href='mailto:"+WriteEmail("info","ninjafever.com")+"'>contact with the company</a></u> to ask for references.</p>"
+					  "<p>For several years he developed games and apps on the Nintendo DS Scene, even winning some prizes in contests. He also has developed some apps for PC, mobile, and even digital cameras.</p>"
+					+ "<p>In 2013 he performed 400 hours of internship in the videogame company <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, where he got a contract shortly after."
+					+ "<p>In 2014 Ninja Fever converted into <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, where he worked on QA in some games like <em>OlliOlli</em> and <em>Don't Starve</em>.</p>"
+					+ "<p>In the same year, he moved to Blit Software, where he developed applications for iOS devices like <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em>, and <em>MiniAtlas</em>.</p>"
+					+ "<p>He has been working at BlitWorks since 2015, porting some great games like <em>Divinity: Original Sin II</em>, <em>Broken Age</em>, and <em>Streets of Rage 4</em>. And he has been one of the main developers of <em>Spelunky</em> 2 as well!</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>He is bilingual in Castilian and Catalan, he has the Valencian's Teacher title, and with English don't work badly, but I must say that he is better in writing than speaking.</p>"
+					  "<p>He is native in Spanish and Catalonian, and he is not bad at all in English, having a B1 level equivalent.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
-					  "<p>You could contact it by <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. He checks it often, so he won't be late in answering.</p>"
+					  "<p>You can contact him at <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. He checks it often, so he probably won't be late in answering.</p>"
 					;
 				else if (answer == 6) object.innerHTML += // trust you?
-					  "<p>Of course yes! I always tell the truth, even for good and bad things. And Églomer isn't here right now, so, what does prevent me from speaking with clarity?</p>"
+					  "<p>Of course, you can! I always tell the truth, for better and for worse. Besides, since Églomer is not around I can speak completely free.</p>"
 					;
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>Who is?</a></span></br>"
+					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>Who is him?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,2);'>Studies?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,3);'>Experience?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,7);'>His work in Ninja Fever.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,4);'>Languages?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,5);'>Contact?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,6);'>Can I trust you?</a></span></br>"
@@ -164,27 +153,27 @@
 					
 			}else if (question == 2){ // Zippo's menu
 				object.style.maxWidth = "400px";
-				if (answer == 0) object.innerHTML += "Ask me what wants.</br>";
+				if (answer == 0) object.innerHTML += "You can ask me whatever you want.</br>";
 				else if (answer == 1) object.innerHTML += // Who are you?
-					  "<p>I'm Zippo, <del>a scholarship holder contracted to serve coffees</del> the personal assistant of Églomer and his corporative image since 2008. I like to walk, to do parachuting and to travel, but nowadays I haven't time enough to do it.</p>"
+					  "<p>I'm Zippo, the <del>minion</del> personal assistant of Églomer and his corporative image since 2008. I like to walk, skydive, and travel, but nowadays I am so busy that I barely can't do it.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // What are you?
-					  "<p>I'm a member of a unknown race, part of the imaginary world of one of the stories that Églomer wrote time ago.</p>"
+					  "<p>I am an unknown race specimen of one of the imaginary worlds that Églomer wrote up a long time ago. I have no limbs nor chest, but I am still able to manage this crazy workshop and even take notes!</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Why are you here?
-					  "<p>Well, having in mind the worldwide crisis in which we are, even imaginary beings have had to do something to survive.</p>"
+					  "<p>Well, in this world, even imaginary creatures like me have to find a way to live. Églomer doesn't pay very much, but it is enough to have a good life.</p>"
 					;
 				
 				
 				object.innerHTML +=
 					  "<span class='option'>&raquo; <a href='javascript:Option(2,1);'>Who are you?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>What are you exactly?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>What are you?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(2,3);'>Why are you here?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(0,1);'>Let's talk about another thing.</a></span></br>";
 			}
 			
 			object.innerHTML +=
-				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>Can you hide yourself, please?</a></span></br>"
+				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>Could you hide yourself, please?</a></span></br>"
 				+ "<span class='option'>&raquo; <a href='javascript:Translate(0);'>Háblame en Español, por favor.</a></span></br>"
 				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en Català, per favor.</a></span></br>";
 		}
@@ -205,7 +194,7 @@
 				else if (answer == 1) object.innerHTML += "En què puc ajudar-li?</br>";
 				
 				object.innerHTML +=
-					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>Sols vull fer un ull.</a></span></br>"
+					  "<span class='option'>&raquo; <a href='javascript:StopTalking();'>Tan sols vull fer un ull, gràcies.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,0);'>Parlam d'Églomer.</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(2,0);'>Vull saber més sobre tu.</a></span></br>";
 		
@@ -213,29 +202,25 @@
 				object.style.maxWidth = "800px";
 				if (answer == 0) object.innerHTML += "Què vols saber d'Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer és en realitat Javier Moya Nájera, un valencià de "+WriteAge()+" anys apassionat pel món dels videojocs i la tecnologia, tot i que també té altres hobbys com l'escriptura, la música i la meteorologia.</p>"
-					+ "<p>És treballador, ordenat, disciplinat i té una GRAN facilitat per aprendre, i poc més puc dir-li: açò és tot el que posava en el guió que em va donar per preguntes com aquesta.</p>"
+					  "<p>Églomer és en realitat Javier Moya Nájera, un valencià de "+WriteAge()+" anys apassionat pel món dels videojocs i la tecnologia, tot i que també té altres hobbies com l'escriptura, la música i la meteorologia.</p>"
+					+ "<p>És treballador, ordenat, disciplinat i té una gran facilitat per aprendre, i poc més puc dir-li: açò és tot el que posava en el guió que em va donar per preguntes com aquesta.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
-					  "<p>Està diplomat en Magisteri Musical per la Universitat Jaume I de Castelló, i ha aconseguit tots els honors possibles. També va estudiar un any d'Enginyeria Informàtica a la Universitat Politècnica de València, i ha realitzat cursos de programació en C/C++ i Visual Basic al Centre Ciències de la Informació de Castelló.</p>"
-					+ "<p>El curs passat va finalitzar el Grau Superior de Desenvolupament d'Aplicacions Multiplataforma (una de les variants LOE de l'antic Cicle Superior de Desenvolupament d'Aplicacions Informàtiques) en modalitat a distància, amb una nota mitja de 9'3, i actualment està finalitzant el Grau Superior de Desenvolupament d'Aplicacions Web en la mateixa modalitat.</p>"
+					  "<p>Està diplomat en <em>Magisteri Musical</em> per la Universitat Jaume I de Castelló, on va aconseguit tots els honors possibles. També va estudiar un any d'<em>Enginyeria Informàtica</em> a la Universitat Politècnica de València, i ha realitzat alguns <em>cursos de programació en C/C++ i Visual Basic</em> al Centre Ciències de la Informació de Castelló.</p>"
+					+ "<p>En 2013 va acabar el <em>Grau Superior de Desenvolupament d'Aplicacions Multiplataforma</em> en modalitat a distància, amb una mitja de 9'3, i en 2014 el <em>Grau Superior de Desenvolupament d'Aplicacions Web</em> en la mateixa modalitat, amb una mitja de 8.57.</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Experience
-					  "<p>Durant uns anys ha estat desenvolupant jocs i aplicacions per al món de l'Scene de la Nintendo DS, on ha guanyat ja diversos premis. També ha programat algunes aplicacions per a PC i ha fet també algun treball d'índole professional amb molt bona acceptació.</p>"
-					+ "<p>A més, al 2013 va realitzar 400 hores de pràctiques del Cicle Superior de Desenvolupament d'Aplicacions Multiplataforma a l'empresa de videojocs <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, on està treballant actualment.</p>"
-					+ "<p>Els llenguatges de programació amb els que compta són: C/C++ (des de 2004), Visual Basic (des de 2005), SQL, XHTML, CSS, PHP i javascript (des de 2011 de manera formal), XML, java (des de 2012), C# (des de 2013).</p>"
-					+ "<p>Ha treballat amb els següents entorns: Visual Studio 2010, SQL Server 2005, MySQL, Code::Blocks, Code::Lite, Dev-CPP, Eclipse, Unity3D.</p>"
-					;
-				else if (answer == 7) object.innerHTML += // Internships
-					  "<p>El seu treball durant les pràctiques en <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a> va consistir principalment en desenvolupar millores i ferramentes per al motor de l'empresa, utilitzant el llenguatge de programació C++. Entre altres, podem destacar:</br>- La creació d'un empaquetador d'arxius i la inclusió del corresponent desempaquetador al motor. </br>- La creació de funciones per a donar suport al motor per utilitzar caràcters UTF-8.</br>- El desenvolupament d'un editor d'escenes 3D utilitzant el motor de l'empresa com a base, capaç de manipular models, càmeres, llums i terrenys.</p>"
-					+ "<p>Actualment el seu treball en l'empresa, donat el canvi de romb que aquesta ha pres, consisteix en realitzar tasques de QA per a videojocs de les plataformes de Sony (PS3, PS4 y Vita) sota el nom de <a href='http://www.lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, i ha treballat en títols com: <a href='http://spelunkyworld.com/' target='_blank'>Spelunky</a> (PS3, Vita) i <a href='http://fezgame.com/' target='_blank'>FEZ</a> (PS3, PS4, Vita), entre d'altres.<p>"
-					+ "<p>Si té interès, pot <u><a href='mailto:"+WriteEmail("info","ninjafever.com")+"'>contactar amb l'empresa</a></u> per demanar referències.</p>"
+					  "<p>Durant uns anys va estar desenvolupant jocs i aplicacions per al món de l'Scene de la Nintendo DS, on va guanyar diversos premis. També ha programat algunes aplicacions per a PC, mòbils i inclús càmeres digitals.</p>"
+					+ "<p>L'any 2013 va realitzar 400 hores de pràctiques en l'empresa de videojocs <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, on va passar a formar part de la plantilla poc temps després.</p>"
+					+ "<p>En 2014 Ninja Fever va passar a ser <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, en la que va treballar fent tasques de QA en jocs com <em>OlliOlli</em> o <em>Don't Starve</em>.</p>"
+					+ "<p>Aquell mateix any va passar a formar part de l'equip de Blit Software, desenvolupant aplicacions per a dispositius iOS com <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em> o <em>MiniAtlas</em>.</p>"
+					+ "<p>Des de 2015 està treballant en BlitWorks realitzant ports de grans videojocs com <em>Divinity: Original Sin II</em>, <em>Broken Age</em> o <em>Streets of Rage 4</em>. I també ha sigut un dels programadors principals en <em>Spelunky 2</em>!</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>D'idiomes no es pot fir que vaja malament. És bilingüe en castellà i català, té el títol de Mestre de Valencià, i amb l'anglès no es defensa malament, encara que sent sincers se li dona millor l'escrit que l'oral.</p>"
+					  "<p>D'idiomes no es pot fir que vaja malament. És bilingüe en castellà i català, té el títol de Mestre de Valencià, i amb l'anglès no es defensa malament, on té un nivell equivalent a un B1.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
-					  "<p>Pot escriure-li un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. El revisa prou sovint, així que no crec que tarde en contestar-li.</p>"
+					  "<p>Pot escriure-li un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. El revisa prou sovint, així que no crec que trigue en respondre.</p>"
 					;
 				else if (answer == 6) object.innerHTML += // trust you?
 					  "<p>Per descomptat! Sempre intente anar amb la veritat en la mà, tant per les coses bones com per les roïnes. A més, ara que Églomer no està per ací, què m'impedeix parlar amb claredat?</p>"
@@ -245,8 +230,7 @@
 					  "<span class='option'>&raquo; <a href='javascript:Option(1,1);'>Qui és?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,2);'>Quins estudis té?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,3);'>Quina experiència té?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,7);'>Parlam del seu treball en Ninja Fever.</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(1,4);'>I com va d'idiomes?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(1,4);'>Com va d'idiomes?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,5);'>Com puc contactar amb ell?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(1,6);'>Ets sincer amb mi?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(0,1);'>Parlem d'un altra cosa.</a></span></br>";
@@ -256,19 +240,19 @@
 				object.style.maxWidth = "400px";
 				if (answer == 0) object.innerHTML += "Pot preguntar-me el que vulga.</br>";
 				else if (answer == 1) object.innerHTML += // Who are you?
-					  "<p>Sóc Zippo, <del>el becari contractat per servir café</del> l'ajudant personal d'Églomer i la seua imatge representativa des de l'any 2008. M'agrada passejar, fer paracaigudisme i viatjar, encara que actualment no dispose de molt de temps per fer-ho.</p>"
+					  "<p>Sóc Zippo, <del>el minion</del> l'ajudant personal d'Églomer i la seua imatge representativa des de l'any 2008. M'agrada passejar, fer paracaigudisme i viatjar, encara que actualment no dispose de molt de temps per fer-ho.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // What are you?
-					  "<p>Sóc un membre d'una raça desconeguda, part del món imaginari d'una de les històries que Églomer va escriure fa temps.</p>"
+					  "<p>Sóc membre d'una raça desconeguda, part del món imaginari d'una de les històries que Églomer va escriure fa temps. No tinc cos ni extremitats, i tot i això em desempenyale prou bé en aquest taller de bojos. I fins i tot puc prendre notes!</p>"
 					;
 				else if (answer == 3) object.innerHTML += // Why are you here?
-					  "<p>Doncs, tenint en compte la crisi mundial en la que estem, inclòs els sers imaginaris ens hem tingut que buscar la vida per eixir endavant.</p>"
+					  "<p>Tenint en compte com està el món avui dia, inclòs els éssers imaginaris ens hem hagut de buscar la vida per viure. Églomer no paga molt, però és prou per a dur una bona vida.</p>"
 					;
 				
 				
 				object.innerHTML +=
 					  "<span class='option'>&raquo; <a href='javascript:Option(2,1);'>Qui eres?</a></span></br>"
-					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>Què eres exactament?</a></span></br>"
+					+ "<span class='option'>&raquo; <a href='javascript:Option(2,2);'>Què ets exactament?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(2,3);'>Per què estàs ací?</a></span></br>"
 					+ "<span class='option'>&raquo; <a href='javascript:Option(0,1);'>Parlem d'un altra cosa.</a></span></br>";
 			}
@@ -280,13 +264,6 @@
 		} 
 	}
 		
-	
-	
-	
-	
-	
-	
-
 	// Set and translate Zippo's messages, main content and card content.
 	function Translate (newlang){
 		var object;
@@ -307,8 +284,13 @@
 
 			object = document.getElementById("foot");
 			object.innerHTML = "<a href='http://validator.w3.org/check?uri="+document.location.href+"' target='_blank'><img src='http://www.w3.org/Icons/valid-xhtml10' alt='Valid XHTML 1.0 Transitional' height='31' width='88' /></a>"
-							 + "<br/>&copy; Javier Moya N&aacute;jera (2012). Todos los derechos reservados.";
+							 + "<br/>&copy; Javier Moya N&aacute;jera (2021). Todos los derechos reservados.";
 			
+			
+			object = document.getElementById("menu_my");
+			object.innerHTML = "Proyectos propios";
+			object = document.getElementById("menu_pro");
+			object.innerHTML = "Proyectos profesionales";			
 			
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "El ahorcado";
@@ -388,9 +370,81 @@
 			object = document.getElementById("publications");
 			object.innerHTML = "Publicaciones";
 			
+			// PRO
+			object = document.getElementById("arsonandplunder_d");
+			object.innerHTML = "Creación de un empaquetador de archivos e integración en el motor del juego.<br/>Testeo general del juego.";
 			
+			object = document.getElementById("spelunky_d");
+			object.innerHTML = "QA del juego en las plataformas de Sony.";
 			
+			object = document.getElementById("fez_d");
+			object.innerHTML = "QA del juego en las plataformas de Sony.";
 			
+			object = document.getElementById("dontstarve_d");
+			object.innerHTML = "QA del juego en PlayStation Vita.";
+			
+			object = document.getElementById("olliolli_d");
+			object.innerHTML = "QA del juego en algunas plataformas de Sony.";
+			
+			object = document.getElementById("miniatlas_d");
+			object.innerHTML = "Desarrollador principal de la aplicación, destacando la posibilidad de dibujar sobre las imágenes, y el guardado y envío por correo electrónico de las modificaciones.";
+			
+			object = document.getElementById("flipchart_d");
+			object.innerHTML = "Desarrollador principal de la aplicación, destacando la creación de PDFs con los montajes realizados y su posterior envío por correo electrónico.";
+			
+			object = document.getElementById("virtualarena_d");
+			object.innerHTML = "Parte del equipo de desarrollo de la aplicación, destacando la creación de menús y la lógica en algunas funciones como la creación de líneas de unión entre jugadores.";
+			
+			object = document.getElementById("motogplive_d");
+			object.innerHTML = "Desarrollador principal del front-end de la aplicación, destacando el tratamiento en tiempo real de la posición y tiempo de los pilotos y su visualización en todo tipo de dispositivos iOS.";
+			
+			object = document.getElementById("motogpvideo_d");
+			object.innerHTML = "Desarrollador principal del front-end de la aplicación, destacando la visualización en tiempo real de las carreras y los entrenamientos.";
+			
+			object = document.getElementById("spelunky2_d");
+			object.innerHTML = "Uno de los desarrolladores principales del juego, destacando el desarrollo de gameplay, IA e input.<br/>Moderador del servidor de Discord.";
+			
+			object = document.getElementById("brokenage_d");
+			object.innerHTML = "Encargado principal del port en todas las plataformas, realizando todo el porting exceptuando la parte gráfica en Xbox One y el audio en Switch.";
+			
+			object = document.getElementById("dos2_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input y savegames, y destacando el desarrollo del cross-save de Switch con Steam.";
+			
+			object = document.getElementById("sor4_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma. Ayuda puntual en el online y los leaderboards.";
+			
+			object = document.getElementById("fmf_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma.";
+			
+			object = document.getElementById("clicker_d");
+			object.innerHTML = "Encargado principal del port, realizando todo el porting exceptuando los aspectos nativos de PlayStation 4. A destacar la adaptación a gamepad de todo el input.";
+			
+			object = document.getElementById("invisible_d");
+			object.innerHTML = "Encargado principal del port, realizando todo el porting del juego.";
+			
+			object = document.getElementById("hammerwatch_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma.";
+			
+			object = document.getElementById("tjd_d");
+			object.innerHTML = "Uno de los encargado principales del port, realizando la gran mayoría del porting exceptuando los aspectos nativos de PlayStation 4. A destacar la adaptación a gamepad de todo el input, manteniendo a su vez el input táctil para Switch.";
+			
+			object = document.getElementById("deblob_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma. A destacar el soporte de mandos de Wii en la versión de PC.";
+			
+			object = document.getElementById("deblob2_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma. A destacar el soporte de mandos de Wii en la versión de PC.";
+			
+			object = document.getElementById("braid_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma.";
+			
+			object = document.getElementById("tricky_d");
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma.";
+			
+			object = document.getElementById("wargroove_d");
+			object.innerHTML = "Uno de los encargado principales del port, realizando la gran mayoría del porting exceptuando los aspectos de red del online.";
+			
+			object = document.getElementById("starbound_d");
+			object.innerHTML = "Encargado principal del port, realizando todo el trabajo de porting. A destacar el porting de toda la red del modo online.";
 			
 		}else if (lang == 1){ // en
 			object = document.getElementById("close");
@@ -405,7 +459,12 @@
 					
 			object = document.getElementById("foot");
 			object.innerHTML = "<a href='http://validator.w3.org/check?uri="+document.location.href+"' target='_blank'><img src='http://www.w3.org/Icons/valid-xhtml10' alt='Valid XHTML 1.0 Transitional' height='31' width='88' /></a>"
-							 + "<br/>&copy; Javier Moya N&aacute;jera (2012). All rights reserved.";
+							 + "<br/>&copy; Javier Moya N&aacute;jera (2021). All rights reserved.";
+			
+			object = document.getElementById("menu_my");
+			object.innerHTML = "Own projects";
+			object = document.getElementById("menu_pro");
+			object.innerHTML = "Professional projects";
 			
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "Hangman";
@@ -485,9 +544,81 @@
 			object = document.getElementById("publications");
 			object.innerHTML = "Publications";
 		
-		
-		
-		
+			// PRO
+			object = document.getElementById("arsonandplunder_d");
+			object.innerHTML = "Creation of a file packer and integration into the game engine.<br/>Game testing and QA.";
+			
+			object = document.getElementById("spelunky_d");
+			object.innerHTML = "Testing and QA of the game on Sony's platforms.";
+			
+			object = document.getElementById("fez_d");
+			object.innerHTML = "Testing and QA of the game on Sony's platforms.";
+			
+			object = document.getElementById("dontstarve_d");
+			object.innerHTML = "Testing and QA of the game on PlayStation Vita.";
+			
+			object = document.getElementById("olliolli_d");
+			object.innerHTML = "Testing and QA of the game in some of Sony's platforms.";
+			
+			object = document.getElementById("miniatlas_d");
+			object.innerHTML = "Main developer, highlighting the image editor, being able to modify, save, and send these modifications by e-mail.";
+			
+			object = document.getElementById("flipchart_d");
+			object.innerHTML = "Main developer, highlighting the PDF creation of the compositions and the sending of these files by e-mail.";
+			
+			object = document.getElementById("virtualarena_d");
+			object.innerHTML = "Part of the development team, highlighting the creation of the menus and the logic of some functions like the creation of union lines between players.";
+			
+			object = document.getElementById("motogplive_d");
+			object.innerHTML = "Front-end's main developer, highlighting the real-time treatment of pilots' position and times, and its visualization in all kinds of iOS devices.";
+			
+			object = document.getElementById("motogpvideo_d");
+			object.innerHTML = "Front-end's main developer, highlighting the feature for watching training and races in real-time.";
+			
+			object = document.getElementById("spelunky2_d");
+			object.innerHTML = "One of the main game developers, highlighting the work on gameplay, AI, and input.<br/>Discord server moderator.";
+			
+			object = document.getElementById("brokenage_d");
+			object.innerHTML = "Main port manager in all platforms, making the whole port except the graphics in Xbox One, and the audios in Switch.";
+			
+			object = document.getElementById("dos2_d");
+			object.innerHTML = "Part of the porting team, working on input and savegame tasks and highlighting the development of the cross-save feature between Switch and Steam.";
+			
+			object = document.getElementById("sor4_d");
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. Punctual helper in online and leaderboards.";
+			
+			object = document.getElementById("fmf_d");
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform.";
+			
+			object = document.getElementById("clicker_d");
+			object.innerHTML = "Main port manager in all platforms, making the whole port except the native aspects of PlayStation 4. To highlight the input adaption to the gamepad.";
+			
+			object = document.getElementById("invisible_d");
+			object.innerHTML = "Main port manager in all platforms, making the whole port of the game.";
+			
+			object = document.getElementById("hammerwatch_d");
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform.";
+			
+			object = document.getElementById("tjd_d");
+			object.innerHTML = "One of the main workers of the port, doing most of the port except the native aspects of PlayStation 4. To highlight the input adaption to the gamepad, maintaining the tactile input for Switch";
+			
+			object = document.getElementById("deblob_d");
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. A destacar el soporte de mandos de Wii en la versión de PC.";
+			
+			object = document.getElementById("deblob2_d");
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. A destacar el soporte de mandos de Wii en la versión de PC.";
+			
+			object = document.getElementById("braid_d");
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform.";
+			
+			object = document.getElementById("tricky_d");
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform.";
+			
+			object = document.getElementById("wargroove_d");
+			object.innerHTML = "One of the main workers of the port, doing most of the port except the online stuff.";
+			
+			object = document.getElementById("starbound_d");
+			object.innerHTML = "Main port manager, making the whole port of the game. To highlight the port of all the online stuff.";
 		
 		}else if (lang == 2){ // ca
 			object = document.getElementById("close");
@@ -502,7 +633,12 @@
 					
 			object = document.getElementById("foot");
 			object.innerHTML = "<a href='http://validator.w3.org/check?uri="+document.location.href+"' target='_blank'><img src='http://www.w3.org/Icons/valid-xhtml10' alt='Valid XHTML 1.0 Transitional' height='31' width='88' /></a>"
-							 + "<br/>&copy; Javier Moya N&aacute;jera (2012). Tots els drets reservats.";
+							 + "<br/>&copy; Javier Moya N&aacute;jera (2021). Tots els drets reservats.";
+			
+			object = document.getElementById("menu_my");
+			object.innerHTML = "Projectes propis";
+			object = document.getElementById("menu_pro");
+			object.innerHTML = "Projectes professionals";
 			
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "El penjat";
@@ -581,13 +717,84 @@
 			
 			object = document.getElementById("publications");
 			object.innerHTML = "Publicacions";
+			
+			// PRO
+			object = document.getElementById("arsonandplunder_d");
+			object.innerHTML = "Creació d'un empaquetador d'arxius i integració en el motor del joc.<br/>Testatge general del joc.";
+			
+			object = document.getElementById("spelunky_d");
+			object.innerHTML = "QA del joc en les plataformes de Sony.";
+			
+			object = document.getElementById("fez_d");
+			object.innerHTML = "QA del joc en les plataformes de Sony.";
+			
+			object = document.getElementById("dontstarve_d");
+			object.innerHTML = "QA del joc en PlayStation Vita.";
+			
+			object = document.getElementById("olliolli_d");
+			object.innerHTML = "QA del joc en algunes plataformes de Sony.";
+			
+			object = document.getElementById("miniatlas_d");
+			object.innerHTML = "Programador principal de l'aplicació, destacant la possibilitat de dibuixar a les imatges, i el guardat i l'enviament per correu electrònic de les modificacions.";
+			
+			object = document.getElementById("flipchart_d");
+			object.innerHTML = "Programador principal de l'aplicació, destacant la creació de PDFs amb els muntatges realitzats i el seu enviament per correu electrònic.";
+			
+			object = document.getElementById("virtualarena_d");
+			object.innerHTML = "Part de l'equip de desenvolupament de l'aplicació, destacant la creació de menús i la lògica en algunes funcions com la creació de línies d'unió entre jugadors.";
+			
+			object = document.getElementById("motogplive_d");
+			object.innerHTML = "Programador principal del front-end de l'aplicació, destacant el tractament en temps real de la posició i el temps dels pilots i la seua visualització en tota mena de dispositius iOS.";
+			
+			object = document.getElementById("motogpvideo_d");
+			object.innerHTML = "Programador principal de l'aplicació, destacant la visualització en temps real de les carreres i els entrenaments.";
+			
+			object = document.getElementById("spelunky2_d");
+			object.innerHTML = "Un dels programadors principals del joc, destacant el desenvolupament de gameplay, IA i input.<br/>Moderador del servidor de Discord.";
+			
+			object = document.getElementById("brokenage_d");
+			object.innerHTML = "Encarregat principal del port en totes les plataformes, realitzant tot el porting excepte la part gràfica de Xbox One i l'audio de Switch.";
+			
+			object = document.getElementById("dos2_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input i savegames, i destacant el desenvolupament del cross-save de Switch amb Steam.";
+			
+			object = document.getElementById("sor4_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma. Ajuda puntual en l'online i els leaderboards.";
+			
+			object = document.getElementById("fmf_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma.";
+			
+			object = document.getElementById("clicker_d");
+			object.innerHTML = "Encarregat principal del port, realitzant tot el porting exceptuant els aspectes natius de PlayStation 4. Cal destacar l'adaptació a gamepad de tot l'input.";
+			
+			object = document.getElementById("invisible_d");
+			object.innerHTML = "Encarregat principal del port, realitzant tot el porting del joc.";
+			
+			object = document.getElementById("hammerwatch_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma.";
+			
+			object = document.getElementById("tjd_d");
+			object.innerHTML = "Un dels encarregats principals del port, realitzant la gran part del porting exceptuant els aspectes natius de PlayStation 4. Cal destacar l'adaptació a gamepad de tot l'input, mantenint al mateix temps l'input tàctil per a Switch.";
+			
+			object = document.getElementById("deblob_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma. Cal destacar el suport de comandaments de Wii a la versió de PC.";
+			
+			object = document.getElementById("deblob2_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma. A destacar el soporte de mandos de Wii en la versión de PC.";
+			
+			object = document.getElementById("braid_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma.";
+			
+			object = document.getElementById("tricky_d");
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma.";
+			
+			object = document.getElementById("wargroove_d");
+			object.innerHTML = "Un dels encarregats principals del port, realitzant la majoria del porting exceptuant els aspectes de la xarxa de l'online.";
+			
+			object = document.getElementById("starbound_d");
+			object.innerHTML = "Encarregat principal del port, realitzant tot el treball de porting. Cal destacar el porting de tota la xarxa del mode online.";
 		}				
 	}
-	
-	
-	
-	
-	
 	
 	// Show Zippo
 	function ShowZippo(){
@@ -595,7 +802,6 @@
 		Show("zippo");
 		Show("talking");
 	}
-	
 	
 	// Hide Zippo
 	function HideZippo(){
@@ -613,7 +819,6 @@
 		setTimeout('Show("hidded")', 3000); 
 		setTimeout('Option(0, 1)', 3000);
 	}
-	
 	
 	// Silence Zippo
 	function StopTalking(){
@@ -636,7 +841,6 @@
 		else if (lang == 2) object.title = "Parlar amb Zippo";
 	}
 	
-	
 	// Talk to Zippo
 	function TalkingZippo(){
 		// Show Zippo
@@ -647,4 +851,34 @@
 		object.title = "";
 	}
 	
+	// Change tab
+	function SetPro(setAsPro)
+	{
+		isPro = setAsPro;
+		
+		var object;
+		object = document.getElementById("menu_my");
+		if (isPro)
+			object.classList.remove('menu_entry_selected');
+		else
+			object.classList.add('menu_entry_selected');
+		
+		object = document.getElementById("menu_pro");
+		if (isPro)
+			object.classList.add('menu_entry_selected');
+		else
+			object.classList.remove('menu_entry_selected');	
+		
+		object = document.getElementById("body");
+		if (isPro)
+			object.style.display = "none";
+		else
+			object.style.display = "";
+		
+		object = document.getElementById("body_pro");
+		if (isPro)
+			object.style.display = "";
+		else
+			object.style.display = "none";
+	}
 //]]>
