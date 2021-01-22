@@ -423,7 +423,7 @@
 			object.innerHTML = "Encargado principal del port, realizando todo el porting del juego.";
 			
 			object = document.getElementById("hammerwatch_d");
-			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma.";
+			object.innerHTML = "Parte del equipo del port, realizando labores de input, savegame, achievements y otros aspectos lógicos de la plataforma. Guionista del trailer de anuncio de la versión de consola.";
 			
 			object = document.getElementById("tjd_d");
 			object.innerHTML = "Uno de los encargado principales del port, realizando la gran mayoría del porting exceptuando los aspectos nativos de PlayStation 4. A destacar la adaptación a gamepad de todo el input, manteniendo a su vez el input táctil para Switch.";
@@ -579,7 +579,7 @@
 			object.innerHTML = "One of the main game developers, highlighting the work on gameplay, AI, and input.<br/>Discord server moderator.";
 			
 			object = document.getElementById("brokenage_d");
-			object.innerHTML = "Main port manager in all platforms, making the whole port except the graphics in Xbox One, and the audios in Switch.";
+			object.innerHTML = "Main port manager in all platforms, making the whole port except the graphics in Xbox One, and the audio in Switch.";
 			
 			object = document.getElementById("dos2_d");
 			object.innerHTML = "Part of the porting team, working on input and savegame tasks and highlighting the development of the cross-save feature between Switch and Steam.";
@@ -597,16 +597,16 @@
 			object.innerHTML = "Main port manager in all platforms, making the whole port of the game.";
 			
 			object = document.getElementById("hammerwatch_d");
-			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform.";
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. Scriptwriter of the console version announcement trailer.";
 			
 			object = document.getElementById("tjd_d");
-			object.innerHTML = "One of the main workers of the port, doing most of the port except the native aspects of PlayStation 4. To highlight the input adaption to the gamepad, maintaining the tactile input for Switch";
+			object.innerHTML = "One of the main workers of the port, doing most of the port except the native aspects of PlayStation 4. To highlight the input adaption to the gamepad, maintaining the tactile input for Switch.";
 			
 			object = document.getElementById("deblob_d");
-			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. A destacar el soporte de mandos de Wii en la versión de PC.";
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. To highlight the Wii controller support in the PC version.";
 			
 			object = document.getElementById("deblob2_d");
-			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. A destacar el soporte de mandos de Wii en la versión de PC.";
+			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform. To highlight the Wii controller support in the PC version.";
 			
 			object = document.getElementById("braid_d");
 			object.innerHTML = "Part of the porting team, working on input, savegame, achievements, and some other logical aspects of the platform.";
@@ -771,7 +771,7 @@
 			object.innerHTML = "Encarregat principal del port, realitzant tot el porting del joc.";
 			
 			object = document.getElementById("hammerwatch_d");
-			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma.";
+			object.innerHTML = "Part de l'equip del port, realitzant tasques d'input, savegame, achievements i altres aspectes lògics de la plataforma. Guionista de l'anunci de la versió de consola.";
 			
 			object = document.getElementById("tjd_d");
 			object.innerHTML = "Un dels encarregats principals del port, realitzant la gran part del porting exceptuant els aspectes natius de PlayStation 4. Cal destacar l'adaptació a gamepad de tot l'input, mantenint al mateix temps l'input tàctil per a Switch.";
