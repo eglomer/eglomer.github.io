@@ -30,7 +30,9 @@
 				object.style.maxWidth = "800px";
 				if (answer == 0) object.innerHTML += "¿Qué quiere saber de Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer es en realidad Javier Moya Nájera, un valenciano de "+WriteAge()+" años apasionado por el mundo de los videojuegos y la tecnología, aunque también tiene otros hobbies como la escritura, la música y la meteorología.</p>"
+					  "<img src='eglomer.png' alt'eglomer' style='display:block; margin-left:auto; margin-right:auto;'>"
+					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Imagen por <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a></i></center>"
+					+ "<p>Églomer es en realidad Javier Moya Nájera, un valenciano de "+WriteAge()+" años apasionado por el mundo de los videojuegos y la tecnología, aunque también tiene otros hobbies como la escritura, la música y la meteorología.</p>"
 					+ "<p>Es trabajador, ordenado, disciplinado y tiene una gran facilidad para aprender, y poco más puedo decirle: esto es todo lo que ponía en el guión que me dio para preguntas como ésta.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
@@ -41,8 +43,9 @@
 					  "<p>Durante varios años estuvo desarrollando juegos y aplicaciones para el mundo de la Scene de la Nintendo DS, y ganó diversos premios por ello. También ha programado algunas aplicaciones para PC, móviles, e incluso para cámaras digitales.</p>"
 					+ "<p>Durante el año 2013 realizó 400 horas de prácticas en la empresa de videojuegos <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, donde pasó a formar parte de la plantilla poco tiempo después.</p>"
 					+ "<p>En 2014 Ninja Fever pasó a ser <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, en la que trabajó haciendo labores de QA en juegos como <em>OlliOlli</em> o <em>Don't Starve</em>.</p>"
-					+ "<p>Ese mismo año pasó a formar parte del equipo de Blit Software, desarrollando aplicaciones para dispositivos iOS como <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em> o <em>MiniAtlas</em>.</p>"
-					+ "<p>Desde 2015 está trabajando en BlitWorks realizando ports de grandes videojuegos como <em>Divinity: Original Sin II</em>, <em>Broken Age</em> o <em>Streets of Rage 4</em>. ¡Y también ha sido uno de los desarrolladores principales en <em>Spelunky 2</em>!</p>"
+					+ "<p>Ese mismo año pasó a formar parte del equipo de <a href='https://blitsoftware.com/' target='_blank'>Blit Software</a>, desarrollando aplicaciones para dispositivos iOS como <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em> o <em>MiniAtlas</em>.</p>"
+					+ "<p>A partir de 2015 trabajó en <a href='https://blitworks.com/' target='_blank'>BlitWorks</a> realizando ports de grandes videojuegos como <em>Divinity: Original Sin II</em>, <em>Broken Age</em> o <em>Streets of Rage 4</em>. ¡Y también ha sido uno de los desarrolladores principales en <em>Spelunky 2</em>!</p>"
+					+ "<p>En 2021 pasó a <a href='https://larian.com/' target='_blank'>Larian Studios</a> como programador de UI, y ha trabajado en juegos como <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
 					  "<p>De idiomas no se puede decir que vaya mal. Es bilingüe en castellano y catalán, y con el inglés no se defiende mal del todo, teniendo un nivel equivalente a un B1.</p>"
@@ -117,7 +120,9 @@
 				object.style.maxWidth = "800px";
 				if (answer == 0) object.innerHTML += "What do you want to know about Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Eglomer's real identity is Javier Moya Nájera, a "+WriteAge()+" years old person who loves videogames and technology, although he has also other hobbies like writing, play music, and meteorology</p>"
+					  "<img src='eglomer.png' alt'eglomer' style='display:block; margin-left:auto; margin-right:auto;'>"
+					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Image by <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a></i></center>"
+					+ "<p>Eglomer's real identity is Javier Moya Nájera, a "+WriteAge()+" years old person who loves videogames and technology, although he has also other hobbies like writing, play music, and meteorology.</p>"
 					+ "<p>He is a hard-working, tidy, disciplined person, and he is also a really good learner. And I am afraid that is all can I say about him: this is all that he wrote me in the script for answering questions like this...</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
@@ -128,8 +133,9 @@
 					  "<p>For several years he developed games and apps on the Nintendo DS Scene, even winning some prizes in contests. He also has developed some apps for PC, mobile, and even digital cameras.</p>"
 					+ "<p>In 2013 he performed 400 hours of internship in the videogame company <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, where he got a contract shortly after."
 					+ "<p>In 2014 Ninja Fever converted into <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, where he worked on QA in some games like <em>OlliOlli</em> and <em>Don't Starve</em>.</p>"
-					+ "<p>In the same year, he moved to Blit Software, where he developed applications for iOS devices like <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em>, and <em>MiniAtlas</em>.</p>"
-					+ "<p>He has been working at BlitWorks since 2015, porting some great games like <em>Divinity: Original Sin II</em>, <em>Broken Age</em>, and <em>Streets of Rage 4</em>. And he has been one of the main developers of <em>Spelunky</em> 2 as well!</p>"
+					+ "<p>In the same year, he moved to <a href='https://blitsoftware.com/' target='_blank'>Blit Software</a>, where he developed applications for iOS devices like <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em>, and <em>MiniAtlas</em>.</p>"
+					+ "<p>Since 2015 he worked at <a href='https://blitworks.com/' target='_blank'>BlitWorks</a>, porting some great games like <em>Divinity: Original Sin II</em>, <em>Broken Age</em>, and <em>Streets of Rage 4</em>. And he has been one of the main developers of <em>Spelunky</em> 2 as well!</p>"
+					+ "<p>In 2021 he moved to <a href='https://larian.com/' target='_blank'>Larian Studios</a> as a UI programmer, where he worked on titles like <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
 					  "<p>He is native in Spanish and Catalonian, and he is not bad at all in English, having a B1 level equivalent.</p>"
@@ -202,7 +208,9 @@
 				object.style.maxWidth = "800px";
 				if (answer == 0) object.innerHTML += "Què vols saber d'Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
-					  "<p>Églomer és en realitat Javier Moya Nájera, un valencià de "+WriteAge()+" anys apassionat pel món dels videojocs i la tecnologia, tot i que també té altres hobbies com l'escriptura, la música i la meteorologia.</p>"
+					  "<img src='eglomer.png' alt'eglomer' style='display:block; margin-left:auto; margin-right:auto;'>"
+					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Imatge per <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a></i></center>"
+					+ "<p>Églomer és en realitat Javier Moya Nájera, un valencià de "+WriteAge()+" anys apassionat pel món dels videojocs i la tecnologia, tot i que també té altres hobbies com l'escriptura, la música i la meteorologia.</p>"
 					+ "<p>És treballador, ordenat, disciplinat i té una gran facilitat per aprendre, i poc més puc dir-li: açò és tot el que posava en el guió que em va donar per preguntes com aquesta.</p>"
 					;
 				else if (answer == 2) object.innerHTML += // Studies?
@@ -213,8 +221,9 @@
 					  "<p>Durant uns anys va estar desenvolupant jocs i aplicacions per al món de l'Scene de la Nintendo DS, on va guanyar diversos premis. També ha programat algunes aplicacions per a PC, mòbils i inclús càmeres digitals.</p>"
 					+ "<p>L'any 2013 va realitzar 400 hores de pràctiques en l'empresa de videojocs <a href='http://www.ninjafever.com/' target='_blank'>Ninja Fever</a>, on va passar a formar part de la plantilla poc temps després.</p>"
 					+ "<p>En 2014 Ninja Fever va passar a ser <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, en la que va treballar fent tasques de QA en jocs com <em>OlliOlli</em> o <em>Don't Starve</em>.</p>"
-					+ "<p>Aquell mateix any va passar a formar part de l'equip de Blit Software, desenvolupant aplicacions per a dispositius iOS com <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em> o <em>MiniAtlas</em>.</p>"
-					+ "<p>Des de 2015 està treballant en BlitWorks realitzant ports de grans videojocs com <em>Divinity: Original Sin II</em>, <em>Broken Age</em> o <em>Streets of Rage 4</em>. I també ha sigut un dels programadors principals en <em>Spelunky 2</em>!</p>"
+					+ "<p>Aquell mateix any va passar a formar part de l'equip de <a href='https://blitsoftware.com/' target='_blank'>Blit Software</a>, desenvolupant aplicacions per a dispositius iOS com <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em> o <em>MiniAtlas</em>.</p>"
+					+ "<p>Des de 2015 va treballar en <a href='https://blitworks.com/' target='_blank'>BlitWorks</a> realitzant ports de grans videojocs com <em>Divinity: Original Sin II</em>, <em>Broken Age</em> o <em>Streets of Rage 4</em>. I també ha sigut un dels programadors principals en <em>Spelunky 2</em>!</p>"
+					+ "<p>Al 2021 va passar a <a href='https://larian.com/' target='_blank'>Larian Studios</a> com a programador de UI, i ha treballat en juegos com <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
 					  "<p>D'idiomes no es pot fir que vaja malament. És bilingüe en castellà i català, té el títol de Mestre de Valencià, i amb l'anglès no es defensa malament, on té un nivell equivalent a un B1.</p>"
@@ -446,6 +455,9 @@
 			object = document.getElementById("starbound_d");
 			object.innerHTML = "Encargado principal del port, realizando todo el trabajo de porting. A destacar el porting de toda la red del modo online.";
 			
+			object = document.getElementById("bg3_d");
+			object.innerHTML = "Programador de UI.";
+			
 		}else if (lang == 1){ // en
 			object = document.getElementById("close");
 			object.innerHTML = "Close";
@@ -619,6 +631,9 @@
 			
 			object = document.getElementById("starbound_d");
 			object.innerHTML = "Main port manager, making the whole port of the game. To highlight the port of all the online stuff.";
+			
+			object = document.getElementById("bg3_d");
+			object.innerHTML = "UI programmer.";
 		
 		}else if (lang == 2){ // ca
 			object = document.getElementById("close");
@@ -793,6 +808,9 @@
 			
 			object = document.getElementById("starbound_d");
 			object.innerHTML = "Encarregat principal del port, realitzant tot el treball de porting. Cal destacar el porting de tota la xarxa del mode online.";
+			
+			object = document.getElementById("bg3_d");
+			object.innerHTML = "Programador de UI.";
 		}				
 	}
 	

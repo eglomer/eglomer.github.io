@@ -1195,7 +1195,7 @@
 		} else if (id == "virtualarena") {
 			url = "https://apps.apple.com/app/id853749026";
 		} else if (id == "spelunky2") {
-			url = "https://store.steampowered.com/app/418530/Spelunky_2/";
+			url = "http://www.mossmouth.com/spelunky2/";
 		} else if (id == "brokenage") {
 			url = "http://www.brokenagegame.com/";
 		} else if (id == "dos2") {
@@ -1224,6 +1224,8 @@
 			url = "https://wargroove.com/";
 		} else if (id == "starbound") {
 			url = "https://playstarbound.com/";
+		} else if (id == "bg3") {
+			url = "https://baldursgate3.game/"
 		}else {
 			return;
 		}

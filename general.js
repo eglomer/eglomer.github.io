@@ -29,7 +29,6 @@
 		}
 	}
 	
-	
 	// Get the navigator language
 	function GetLang() {
 		var language = "nl";
@@ -44,7 +43,6 @@
 			default: lang = 1; break;
 		}
 	}
-	
 	
 	// Check if we click out of a card, and then close it
 	function CheckOut(event, id){
@@ -68,26 +66,16 @@
 		}
 	}
 	
-	
 	// View source code
 	function SourceCode() {
-		if (navigator.appName == "Netscape"){ // for chrome, mozilla, *safari
-			//window.location = "view-source:" + window.location.href;
-			window.open("view-source:" + window.location.href);
-		
-		}else if (navigator.appName == "Opera" || navigator.appName == "Microsoft Internet Explorer"){
-			var popup=window.open();
-			popup.document.open('text/plain').write(document.documentElement.outerHTML);
-		}
+		// We're on GitHub now!
+		window.open("https://github.com/eglomer/eglomer.github.io", '_blank');
 	}
 
-	
-	
 	// Print my email indirectly, for spammers.
 	function WriteEmail(account, server){
 		return account+"@"+server;
 	}
-	
 	
 	// Print my age after calculate it.
 	function WriteAge(){
@@ -99,15 +87,13 @@
 		}		
 	}
 	
-	
 	// Show a hided object
 	function Show(id){
 		var object;
 		object = document.getElementById(id);
 		object.style.visibility = 'visible';
 	}
-			
-			
+	
 	// Hide an object
 	function Hide(id){
 		var object;
