@@ -91,7 +91,7 @@
 			
 			object.innerHTML +=
 				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>¿Podrías ocultarte, por favor?</a></span></br>"
-				+ "<span class='option'>&raquo; <a href='javascript:Translate(1);'>Talk me in English, please.</a></span></br>"
+				+ "<span class='option'>&raquo; <a href='javascript:Translate(1);'>Talk with me in English, please.</a></span></br>"
 				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en Català, per favor.</a></span></br>";
 		}
 		
@@ -135,7 +135,7 @@
 					+ "<p>In 2014 Ninja Fever converted into <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, where he worked on QA in some games like <em>OlliOlli</em> and <em>Don't Starve</em>.</p>"
 					+ "<p>In the same year, he moved to <a href='https://blitsoftware.com/' target='_blank'>Blit Software</a>, where he developed applications for iOS devices like <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em>, and <em>MiniAtlas</em>.</p>"
 					+ "<p>Since 2015 he worked at <a href='https://blitworks.com/' target='_blank'>BlitWorks</a>, porting some great games like <em>Divinity: Original Sin II</em>, <em>Broken Age</em>, and <em>Streets of Rage 4</em>. And he has been one of the main developers of <em>Spelunky</em> 2 as well!</p>"
-					+ "<p>In 2021 he moved to <a href='https://larian.com/' target='_blank'>Larian Studios</a> as a UI programmer, where he worked on titles like <em>Baldur's Gate 3</em>.</p>"
+					+ "<p>In 2021 he moved to <a href='https://larian.com/' target='_blank'>Larian Studios</a> as a UI programmer, where he is currently working on titles like <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
 					  "<p>He is native in Spanish and Catalonian, and he is not bad at all in English, having a B1 level equivalent.</p>"
