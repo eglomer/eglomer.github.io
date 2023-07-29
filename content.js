@@ -31,7 +31,7 @@
 				if (answer == 0) object.innerHTML += "¿Qué quiere saber de Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
 					  "<img src='eglomer.png' alt'eglomer' style='display:block; margin-left:auto; margin-right:auto;'>"
-					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Imagen por <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a></i></center>"
+					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Imagen por <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a>, creador de la saga Spelunky.</i></center>"
 					+ "<p>Églomer es en realidad Javier Moya Nájera, un valenciano de "+WriteAge()+" años apasionado por el mundo de los videojuegos y la tecnología, aunque también tiene otros hobbies como la escritura, la música y la meteorología.</p>"
 					+ "<p>Es trabajador, ordenado, disciplinado y tiene una gran facilidad para aprender, y poco más puedo decirle: esto es todo lo que ponía en el guión que me dio para preguntas como ésta.</p>"
 					;
@@ -91,8 +91,8 @@
 			
 			object.innerHTML +=
 				  "<span class='option'>&raquo; <a href='javascript:HideZippo();'>¿Podrías ocultarte, por favor?</a></span></br>"
-				+ "<span class='option'>&raquo; <a href='javascript:Translate(1);'>Talk with me in English, please.</a></span></br>"
-				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en Català, per favor.</a></span></br>";
+				+ "<span class='option'>&raquo; <a href='javascript:Translate(1);'>Talk to me in English, please.</a></span></br>"
+				+ "<span class='option'>&raquo; <a href='javascript:Translate(2);'>Parlam en Català, si us plau.</a></span></br>";
 		}
 		
 		
@@ -121,7 +121,7 @@
 				if (answer == 0) object.innerHTML += "What do you want to know about Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
 					  "<img src='eglomer.png' alt'eglomer' style='display:block; margin-left:auto; margin-right:auto;'>"
-					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Image by <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a></i></center>"
+					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Image by <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a>, creator of the Spelunky series.</i></center>"
 					+ "<p>Eglomer's real identity is Javier Moya Nájera, a "+WriteAge()+" years old person who loves videogames and technology, although he has also other hobbies like writing, play music, and meteorology.</p>"
 					+ "<p>He is a hard-working, tidy, disciplined person, and he is also a really good learner. And I am afraid that is all can I say about him: this is all that he wrote me in the script for answering questions like this...</p>"
 					;
@@ -209,7 +209,7 @@
 				if (answer == 0) object.innerHTML += "Què vols saber d'Églomer?</br>";
 				else if (answer == 1) object.innerHTML += // Who is?
 					  "<img src='eglomer.png' alt'eglomer' style='display:block; margin-left:auto; margin-right:auto;'>"
-					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Imatge per <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a></i></center>"
+					+ "<center style='font-size:12px; margin-bottom:17px;'><i>Imatge per <a href='https://www.derekyu.com/' target='_blank'>Derek Yu</a>, creador de la saga Spelunky.</i></center>"
 					+ "<p>Églomer és en realitat Javier Moya Nájera, un valencià de "+WriteAge()+" anys apassionat pel món dels videojocs i la tecnologia, tot i que també té altres hobbies com l'escriptura, la música i la meteorologia.</p>"
 					+ "<p>És treballador, ordenat, disciplinat i té una gran facilitat per aprendre, i poc més puc dir-li: açò és tot el que posava en el guió que em va donar per preguntes com aquesta.</p>"
 					;
@@ -223,7 +223,7 @@
 					+ "<p>En 2014 Ninja Fever va passar a ser <a href='https://lollipoprobot.com/' target='_blank'>Lollipop Robot</a>, en la que va treballar fent tasques de QA en jocs com <em>OlliOlli</em> o <em>Don't Starve</em>.</p>"
 					+ "<p>Aquell mateix any va passar a formar part de l'equip de <a href='https://blitsoftware.com/' target='_blank'>Blit Software</a>, desenvolupant aplicacions per a dispositius iOS com <em>MotoGP™ Live Experience</em>, <em>Virtual Arena</em> o <em>MiniAtlas</em>.</p>"
 					+ "<p>Des de 2015 va treballar en <a href='https://blitworks.com/' target='_blank'>BlitWorks</a> realitzant ports de grans videojocs com <em>Divinity: Original Sin II</em>, <em>Broken Age</em> o <em>Streets of Rage 4</em>. I també ha sigut un dels programadors principals en <em>Spelunky 2</em>!</p>"
-					+ "<p>Al 2021 va passar a <a href='https://larian.com/' target='_blank'>Larian Studios</a> com a programador de UI, i ha treballat en juegos com <em>Baldur's Gate 3</em>.</p>"
+					+ "<p>Al 2021 va passar a <a href='https://larian.com/' target='_blank'>Larian Studios</a> com a programador de UI, i ha treballat en jocs com <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
 					  "<p>D'idiomes no es pot fir que vaja malament. És bilingüe en castellà i català, té el títol de Mestre de Valencià, i amb l'anglès no es defensa malament, on té un nivell equivalent a un B1.</p>"
