@@ -48,7 +48,7 @@
 					+ "<p>En 2021 pasó a <a href='https://larian.com/' target='_blank'>Larian Studios</a> como programador de UI, y ha trabajado en juegos como <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>De idiomas no se puede decir que vaya mal. Es bilingüe en castellano y catalán, y con el inglés no se defiende mal del todo, teniendo un nivel equivalente a un B1.</p>"
+					  "<p>De idiomas no se puede decir que vaya mal. Es bilingüe en castellano y catalán, y con el inglés no se defiende mal del todo, teniendo un nivel equivalente a un B2-C1.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
 					  "<p>Puede escribirle un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. Lo revisa a menudo, así que no creo que tarde en contestar.</p>"
@@ -138,7 +138,7 @@
 					+ "<p>In 2021 he moved to <a href='https://larian.com/' target='_blank'>Larian Studios</a> as a UI programmer, where he is currently working on titles like <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>He is native in Spanish and Catalonian, and he is not bad at all in English, having a B1 level equivalent.</p>"
+					  "<p>He is native in Spanish and Catalonian, and he is not bad at all in English, having a B2-C1 level equivalent.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
 					  "<p>You can contact him at <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. He checks it often, so he probably won't be late in answering.</p>"
@@ -226,7 +226,7 @@
 					+ "<p>Al 2021 va passar a <a href='https://larian.com/' target='_blank'>Larian Studios</a> com a programador de UI, i ha treballat en jocs com <em>Baldur's Gate 3</em>.</p>"
 					;
 				else if (answer == 4) object.innerHTML += // Languages
-					  "<p>D'idiomes no es pot fir que vaja malament. És bilingüe en castellà i català, té el títol de Mestre de Valencià, i amb l'anglès no es defensa malament, on té un nivell equivalent a un B1.</p>"
+					  "<p>D'idiomes no es pot fir que vaja malament. És bilingüe en castellà i català, té el títol de Mestre de Valencià, i amb l'anglès no es defensa malament, on té un nivell equivalent a un B2-C1.</p>"
 					;
 				else if (answer == 5) object.innerHTML += // Contact
 					  "<p>Pot escriure-li un e-mail a <a href=\"mailto:"+WriteEmail("jmoyan","hotmail.com")+"\">"+WriteEmail("jmoyan","hotmail.com")+"</a>. El revisa prou sovint, així que no crec que trigue en respondre.</p>"
