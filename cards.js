@@ -1196,6 +1196,8 @@
 			url = "https://apps.apple.com/app/id853749026";
 		} else if (id == "spelunky2") {
 			url = "http://www.mossmouth.com/spelunky2/";
+		} else if (id == "spelunky2ai") {
+			url = "./spelunky2/index.html";
 		} else if (id == "brokenage") {
 			url = "http://www.brokenagegame.com/";
 		} else if (id == "dos2") {

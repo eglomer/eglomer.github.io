@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Spelunky 2</title>
+		<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+		<link rel="icon" type="image/x-icon" href="style/icon.png"/>		
+		<link rel="stylesheet" href="style.css"/>
+		<script type="text/javascript">
+			// Get the navigator language and redirect
+			function ChooseLang()
+			{
+				var language = "nl";
+				if (navigator.userAgent.indexOf("Opera")!=-1 || navigator.appName == "Netscape")
+					language = navigator.language;
+				else
+					language=navigator.browserLanguage;
+				
+				language = language.substring(0,2);
+
+				switch (language)
+				{
+					case "es": window.location.href = "index_es.html"; break;
+					default: window.location.href = "index_en.html"; break;
+				}
+			}
+		</script>
+	</head>
+	<body id="body" onload="javascript:ChooseLang();">
+		<!-- Header -->
+		<div class="container">
+			<div class="container_bg container_camp"/>
+			<div class="container_bg container_camp_deco"/>
+			<p class="content content_center">
+				<span>
+					<br/>
+					<img class="image image_noborder" src="images/00_logo.png" alt="00_logo">
+					<br/>
+				</span>
+			</p>
+		</div>
+	</body>
+</html>

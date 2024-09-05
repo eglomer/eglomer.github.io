@@ -413,6 +413,9 @@
 			object = document.getElementById("spelunky2_d");
 			object.innerHTML = "Uno de los desarrolladores principales del juego, destacando el desarrollo de gameplay, IA e input.<br/>Moderador del servidor de Discord.";
 			
+			object = document.getElementById("spelunky2_ai_d");
+			object.innerHTML = "Post-mortem de cómo fue la creación de la IA del juego.";
+			
 			object = document.getElementById("brokenage_d");
 			object.innerHTML = "Encargado principal del port en todas las plataformas, realizando todo el porting exceptuando la parte gráfica en Xbox One y el audio en Switch.";
 			
@@ -590,6 +593,9 @@
 			object = document.getElementById("spelunky2_d");
 			object.innerHTML = "One of the main game developers, highlighting the work on gameplay, AI, and input.<br/>Discord server moderator.";
 			
+			object = document.getElementById("spelunky2_ai_d");
+			object.innerHTML = "Post-mortem of how the game's AI was created.";
+			
 			object = document.getElementById("brokenage_d");
 			object.innerHTML = "Main port manager in all platforms, making the whole port except the graphics in Xbox One, and the audio in Switch.";
 			
@@ -766,6 +772,9 @@
 			
 			object = document.getElementById("spelunky2_d");
 			object.innerHTML = "Un dels programadors principals del joc, destacant el desenvolupament de gameplay, IA i input.<br/>Moderador del servidor de Discord.";
+			
+			object = document.getElementById("spelunky2_ai_d");
+			object.innerHTML = "Post-mortem de com es va crear la IA del joc.";
 			
 			object = document.getElementById("brokenage_d");
 			object.innerHTML = "Encarregat principal del port en totes les plataformes, realitzant tot el porting excepte la part gràfica de Xbox One i l'audio de Switch.";
