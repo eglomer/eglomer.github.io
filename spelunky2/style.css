@@ -4,9 +4,15 @@
 	src: url(style/yorktennormbold.otf);
 }
 
+@font-face
+{
+	font-family: SpelunkyFontKo;
+	src: url(style/NotoSansKR-Bold.ttf);
+}
+
 *
 {
-	font-family: SpelunkyFont;
+	font-family: SpelunkyFont SpelunkyFontKo;
 }
 
 body
