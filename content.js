@@ -301,6 +301,13 @@
 			object = document.getElementById("menu_pro");
 			object.innerHTML = "Proyectos profesionales";			
 			
+			object = document.getElementById("dicopets_n");
+			object.innerHTML = "Dicopets";
+			object = document.getElementById("dicopets_t");
+			object.innerHTML = "Mascotas virtuales";
+			object = document.getElementById("dicopets_d");
+			object.innerHTML = "¡Son adorables, combinables, y han aterrizado en tu móvil para que les cuides y les des mimitos!";
+			
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "El ahorcado";
 			object = document.getElementById("hangman_t");
@@ -481,6 +488,13 @@
 			object = document.getElementById("menu_pro");
 			object.innerHTML = "Professional projects";
 			
+			object = document.getElementById("dicopets_n");
+			object.innerHTML = "Dicopets";
+			object = document.getElementById("dicopets_t");
+			object.innerHTML = "Virtual pets";
+			object = document.getElementById("dicopets_d");
+			object.innerHTML = "They are adorable, combinable, and have landed on your mobile for you to take care of them and pamper them!";
+			
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "Hangman";
 			object = document.getElementById("hangman_t");
@@ -660,6 +674,13 @@
 			object.innerHTML = "Projectes propis";
 			object = document.getElementById("menu_pro");
 			object.innerHTML = "Projectes professionals";
+			
+			object = document.getElementById("dicopets_n");
+			object.innerHTML = "Dicopets";
+			object = document.getElementById("dicopets_t");
+			object.innerHTML = "Mascotes virtuals";
+			object = document.getElementById("dicopets_d");
+			object.innerHTML = "Són adorables, combinables, i han aterrat en el teu mòbil perquè els cuidis i els donis manyagues!";
 			
 			object = document.getElementById("hangman_n");
 			object.innerHTML = "El penjat";

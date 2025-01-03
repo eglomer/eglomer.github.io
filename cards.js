@@ -39,6 +39,7 @@
 	strings["common"].genre["staticmmorpg"] = ["MMORPG estático", "Static MMORPG", "MMORPG estàtic"];
 	strings["common"].genre["arcadeFight"] = ["Reflejos, lucha, arcade", "Coordination, fight, arcade", "Reflexos, lluita, arcade"];
 	strings["common"].genre["arcadeAbilityOnline"] = ["Arcade, habilidad, online", "Arcade, ability, online", "Arcade, habilitat, online"];
+	strings["common"].genre["virtualPets"] = ["Mascotas virtuales", "Virtual pets", "Mascotes virtuals"];
 	strings["common"].languages = [];
 	strings["common"].languages["EN"] = ["Inglés", "English", "Anglés"];
 	strings["common"].languages["ES"] = ["Español", "Spanish", "Castellà"];
@@ -74,7 +75,55 @@
 	/*
 	------------------------------------------------ ANDROID --------------------------------------------------------------------
 	*/
-		
+	
+	// DICOPETS
+	{
+		cardId = "dicopets";
+		strings[cardId] = {};
+		strings[cardId].title = ["Dicopets", "Dicopets", "Dicopets"];
+		strings[cardId].cover = "./img/dicopets.png";
+		strings[cardId].platform = "Android";
+		strings[cardId].version = "";
+		strings[cardId].category = "game";
+		strings[cardId].genre = "virtualPets";
+		strings[cardId].languages = {};
+		strings[cardId].languages.content = [];
+		strings[cardId].languages.content[0] = "EN";
+		strings[cardId].languages.content[1] = "ES";
+		strings[cardId].languages.count = 2;
+		strings[cardId].languagesPrg = "GDScript";
+		strings[cardId].releaseDate = ["6 de enero de 2025", "January 6, 2025", "6 de gener de 2025"];
+		strings[cardId].downloadExtra = [
+			"<a class='download' href='https://linktr.ee/dicopets' target='_blank'>ACCEDER</a><br/>",
+			"<a class='download' href='https://linktr.ee/dicopets' target='_blank'>ACCESS</a><br/>",
+			"<a class='download' href='https://linktr.ee/dicopets' target='_blank'>ACCEDIR</a><br/>"];
+		strings[cardId].description = {};
+		strings[cardId].description.content = [];
+		strings[cardId].description.content[0] = [
+			"¡Cuídalos! ¡Combínalos! ¡Descúbrelos!",
+			"Take care of 'em! Combine 'em! Discover 'em!",
+			"Cuida'ls! Combina'ls! Descobreix-los!"];
+		strings[cardId].description.content[1] = [
+			"Los Dicopets son unas adorables y simpáticas criaturas que necesitan de tus cuidados para crecer y sobrevivir. <br/>"
+					+ "Además, poseen la extraordinaria capacidad de poder combinarse entre ellas, ¡y hay miles de combinaciones distintas! <br/>"
+					+ "¿Podrás descubrirlas todas?",
+			"Dicopets are adorable and cute creatures that need your care to grow and survive. <br/>"
+					+ "They also have the extraordinary ability to combine, and there are thousands of different combinations!! <br/>"
+					+ "Will you be able to discover them all?",
+			"Els Dicopets són unes adorables i simpàtiques criatures que necessiten de les teves cures per a créixer i sobreviure. <br/>"
+					+ "A més, posseeixen l'extraordinària capacitat de poder combinar-se entre elles, i n'hi ha milers de combinacions distintes! <br/>"
+					+ "Podràs descobrir-les totes?"];
+		strings[cardId].description.count = 2;
+		strings[cardId].installation = "";
+		strings[cardId].media = {};
+		strings[cardId].media.img = {};
+		strings[cardId].media.img.content = "dicopets-";
+		strings[cardId].media.img.contentType = "png";
+		strings[cardId].media.img.count = 7;
+		strings[cardId].media.video = {};
+		strings[cardId].media.video.count = 0;
+	}
+	
 	// HANGMAN
 	{
 		cardId = "hangman";
