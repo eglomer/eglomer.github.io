@@ -38,6 +38,7 @@
 				else if (answer == 2) object.innerHTML += // Studies?
 					  "<p>Está diplomado en <em>Magisterio Musical</em> por la Universidad Jaume I de Castellón, habiendo conseguido todos los honores posibles. También estudió un año de <em>Ingeniería Informática</em> en la Universidad Politécnica de Valencia, y ha realizado <em>varios cursos de programación en C/C++ y en Visual Basic</em> en el Centro Ciencias de la Información de Castellón.</p>"
 					+ "<p>En 2013 finalizó el <em>Grado Superior de Desarrollo de Aplicaciones Multiplataforma</em> en modalidad a distancia, con una nota media de 9'3, y en 2014 el <em>Grado Superior de Desarrollo de Aplicaciones Web</em> en la misma modalidad, con una media de 8.57.</p>"
+					+ "<p>Entre 2024 y 2025 realizó un curso de <em>Narrativa para videojuegos</em> y otro de <em>Level Design para videojuegos</em>, ambos impartidos por <a href='https://www.savegames.es/learning/' target='_blank'>Save Games Learning</a>."
 					;
 				else if (answer == 3) object.innerHTML += // Experience
 					  "<p>Durante varios años estuvo desarrollando juegos y aplicaciones para el mundo de la Scene de la Nintendo DS, y ganó diversos premios por ello. También ha programado algunas aplicaciones para PC, móviles, e incluso para cámaras digitales.</p>"
@@ -128,6 +129,7 @@
 				else if (answer == 2) object.innerHTML += // Studies?
 					  "<p>He graduated in <em>Musical Teaching</em> at Jaume I University from Castelló with all honors. He also studied the first year of <em>IT Engineering</em> at the Polytechnic University of Valencia, and he has also cursed some <em>courses of programming in C/C++ and Visual Basic</em> in the Information Sciences Center of Castelló.</p>"
 					+ "<p>In 2013 he finished the <em>Development of Multiplatform Applications</em>' high degree in distance-learning modality, with an average of 9,3, and in 2014 the <em>Development of Web Applications</em>' high degree in the same modality, with an average of 8,57.</p>"
+					+ "<p>Between 2024 and 2025 he took a course on <em>Narrative for videogames</em> and another of <em>Level Design for videogames</em>, both taught by <a href='https://www.savegames.es/en/learning-eng/' target='_blank'>Save Games Learning</a>."
 					;
 				else if (answer == 3) object.innerHTML += // Experience
 					  "<p>For several years he developed games and apps on the Nintendo DS Scene, even winning some prizes in contests. He also has developed some apps for PC, mobile, and even digital cameras.</p>"
@@ -216,6 +218,7 @@
 				else if (answer == 2) object.innerHTML += // Studies?
 					  "<p>Està diplomat en <em>Magisteri Musical</em> per la Universitat Jaume I de Castelló, on va aconseguit tots els honors possibles. També va estudiar un any d'<em>Enginyeria Informàtica</em> a la Universitat Politècnica de València, i ha realitzat alguns <em>cursos de programació en C/C++ i Visual Basic</em> al Centre Ciències de la Informació de Castelló.</p>"
 					+ "<p>En 2013 va acabar el <em>Grau Superior de Desenvolupament d'Aplicacions Multiplataforma</em> en modalitat a distància, amb una mitja de 9'3, i en 2014 el <em>Grau Superior de Desenvolupament d'Aplicacions Web</em> en la mateixa modalitat, amb una mitja de 8.57.</p>"
+					+ "<p>Entre 2024 i 2025 va cursar un curs de <em>Narrativa per a videojocs</em> i un altre de <em>Level Design per a videojocs</em>, ambdós impartits per <a href='https://www.savegames.es/learning/' target='_blank'>Save Games Learning</a>."
 					;
 				else if (answer == 3) object.innerHTML += // Experience
 					  "<p>Durant uns anys va estar desenvolupant jocs i aplicacions per al món de l'Scene de la Nintendo DS, on va guanyar diversos premis. També ha programat algunes aplicacions per a PC, mòbils i inclús càmeres digitals.</p>"
@@ -374,6 +377,11 @@
 			object.innerHTML = "Educación";
 			object = document.getElementById("intercultural_d");
 			object.innerHTML = "Diseño técnico y gráfico del CD que acompaña a esta investigación publicada dentro de la colección <em>e-educació</em> de la Universidad Jaume I de Castellón de la Plana.";
+			
+			object = document.getElementById("pelon_t");
+			object.innerHTML = "Libros";
+			object = document.getElementById("pelon_d");
+			object.innerHTML = "Pelón era un pajarillo sin plumas que no podía volar, ¡pero él no se daba por vencido! Todos los días lo intentaba, aunque nunca lo consiguiese. Finalmente, cansado y desanimado, conocerá a Mochilero, un mochuelo viajero que cambiará su vida para siempre.";
 			
 			object = document.getElementById("nemorak_t");
 			object.innerHTML = "Libros";
@@ -562,6 +570,11 @@
 			object = document.getElementById("intercultural_d");
 			object.innerHTML = "Technical and graphical design of the CD that accompanies this research published into the collection <em>e-educació</em> of Jaume I University of Castelló.";
 			
+			object = document.getElementById("pelon_t");
+			object.innerHTML = "Books";
+			object = document.getElementById("pelon_d");
+			object.innerHTML = "Pelón was a little bird without feathers who couldn't fly, but he didn't give up! He tried every day, even though he never succeeded. Finally, tired and discouraged, he meets Mochilero, a traveling owl who will change his life forever.";
+			
 			object = document.getElementById("nemorak_t");
 			object.innerHTML = "Books";
 			object = document.getElementById("nemorak_d");
@@ -748,6 +761,11 @@
 			object.innerHTML = "Educació";
 			object = document.getElementById("intercultural_d");
 			object.innerHTML = "Disseny tècnic i gràfic del CD que acompanya a aquesta investigació publicada dins la col·lecció <em>e-educació</em> de la Universitat Jaume I de Castelló de la Plana.";
+			
+			object = document.getElementById("pelon_t");
+			object.innerHTML = "Llibres";
+			object = document.getElementById("pelon_d");
+			object.innerHTML = "Pelón era un ocellet sense plomes que no podia volar, però ell no es donava per vençut! Tots els dies ho intentava, encara que mai ho aconseguís. Finalment, cansat i desanimat, coneixerà a Mochilero, un mussol viatger que canviarà la seva vida per sempre.";
 			
 			object = document.getElementById("nemorak_t");
 			object.innerHTML = "Llibres";

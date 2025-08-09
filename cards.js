@@ -36,6 +36,7 @@
 	strings["common"].genre["crypt"] = ["Encriptador", "Encryptor", "Encriptador"];
 	strings["common"].genre["edu"] = ["Educación", "Education", "Educació"];
 	strings["common"].genre["novel"] = ["Novela", "Novel", "Novel·la"];
+	strings["common"].genre["illustrated_book"] = ["Cuento ilustrado", "Illustrated storybook", "Conte il·lustrat"];
 	strings["common"].genre["staticmmorpg"] = ["MMORPG estático", "Static MMORPG", "MMORPG estàtic"];
 	strings["common"].genre["arcadeFight"] = ["Reflejos, lucha, arcade", "Coordination, fight, arcade", "Reflexos, lluita, arcade"];
 	strings["common"].genre["arcadeAbilityOnline"] = ["Arcade, habilidad, online", "Arcade, ability, online", "Arcade, habilitat, online"];
@@ -937,7 +938,71 @@
 	/*
 	------------------------------------------------ OFFTOPIC --------------------------------------------------------------------
 	*/		
-		
+	
+	// PELON
+	{
+		cardId = "pelon";
+		strings[cardId] = {};
+		strings[cardId].title = ["Pelón", "Pelón", "Pelón"];
+		strings[cardId].cover = "./img/pelon.png";
+		strings[cardId].platform = "Amazon";
+		strings[cardId].category = "book";
+		strings[cardId].genre = "illustrated_book";
+		strings[cardId].languages = {};
+		strings[cardId].languages.content = [];
+		strings[cardId].languages.content[0] = "ES";
+		strings[cardId].languages.count = 1;
+		strings[cardId].releaseDate = ["2023", "2023", "2023"];
+		strings[cardId].downloadExtra = [
+			"<a class='download' href='https://amzn.eu/d/9HAMdiv' target='_blank'>AMAZON</a><br/>",
+			"<a class='download' href='https://a.co/d/aSQjPNj' target='_blank'>AMAZON</a><br/>",
+			"<a class='download' href='https://amzn.eu/d/9HAMdiv' target='_blank'>AMAZON</a><br/>"];
+		strings[cardId].extras = [
+			"<div class='listname'><br/>Sinopsis</div>"
+				+ "	<p><i>Pelón era un pajarillo sin plumas que no podía volar, ¡pero él no se daba por vencido! Todos los días lo intentaba, aunque nunca lo consiguiese.</i></p>"
+				+ " <p><i>Finalmente, cansado y desanimado, conocerá a Mochilero, un mochuelo viajero que cambiará su vida para siempre.</i></p>"
+				+ "	"
+				+ " <p>Este poema infantil ilustrado está basado en los conceptos clave de la perseverancia, la solidaridad y la importancia de apoyarse en los demás cuando nos vemos superados, todos ellos valores importantísimos que podréis trabajar mientras acompañáis a Pelón en su aventura. Además, ¡las ilustraciones a todo color harán las delicias de los más pequeños de la casa!</p>"
+				+ "	"
+				+ "<div class='listname'><br/>Información</div>"
+				+ "<p>- Edad objetivo:&nbsp;</span>A partir de 2 años.<br/>" 
+				+ "- Páginas:&nbsp;</span>25.<br/></p>" 
+				+ " "
+				+ "	<div class='listname'><br/>Aclaraciones legales</div>"
+				+ "	<p>Las muestras presentadas en esta web pertenecen a sus respectivos autores, quedando prohibida su copia, modificación o distribución sin su consentimiento.</p>",
+			"<div class='listname'><br/>Synopsis</div>"
+				+ "	<p>Pelón was a little bird without feathers who couldn't fly, but he didn't give up! He tried every day, even though he never succeeded.</p>"
+				+ " <p>Finally, tired and discouraged, he meets Mochilero, a traveling owl who will change his life forever.</p>"
+				+ "	"
+				+ " <p>This illustrated children's poem is based on the key concepts of perseverance, solidarity, and the importance of relying on others when we feel overwhelmed, all of which are essential values that you can work on while accompanying Pelón on his adventure. What's more, the full-color illustrations will delight the little ones in your household!</p>"
+				+ "	"
+				+ "<div class='listname'><br/>Information</div>"
+				+ "<p>- Age:&nbsp;</span>2 years.<br/>" 
+				+ "- Pages:&nbsp;</span>25.<br/></p>" 
+				+ " "
+				+ "	<div class='listname'><br/>Legal clarifications</div>"
+				+ "	<p>The samples presented on this web belong to their respective owners. Forbidden to copy, modification or distribution without their consent.</p>",
+			"<div class='listname'><br/>Sinopsis</div>"
+				+ "	<p>Pelón era un ocellet sense plomes que no podia volar, però ell no es donava per vençut! Tots els dies ho intentava, encara que mai ho aconseguís.</p>"
+				+ " <p>Finalment, cansat i desanimat, coneixerà a Mochilero, un mussol viatger que canviarà la seva vida per sempre.</p>"
+				+ "	"
+				+ " <p>Aquest poema infantil il·lustrat està basat en els conceptes clau de la perseverança, la solidaritat i la importància de secundar-se en els altres quan ens veiem superats, tots ells valors importantíssims que podreu treballar mentre acompanyeu a Pelón en la seva aventura. A més, les il·lustracions a tot color faran les delícies dels més petits de la casa!</p>"
+				+ "	"
+				+ "<div class='listname'><br/>Información</div>"
+				+ "<p>- Edat:&nbsp;</span>A partir de 2 anys.<br/>" 
+				+ "- Pàgines:&nbsp;</span>25.<br/></p>" 
+				+ " "
+				+ "	<div class='listname'><br/>Aclariments legals</div>"
+				+ "	<p>Les mostres presentades en aquesta web pertanyen als seus respectius autors; queda prohibida la seua còpia, modificació o distribució sense el seu consentiment.</p>"];
+		strings[cardId].media = {};
+		strings[cardId].media.img = {};
+		strings[cardId].media.img.content = "pelon-";
+		strings[cardId].media.img.contentType = "jpg";
+		strings[cardId].media.img.count = 2;
+		strings[cardId].media.video = {};
+		strings[cardId].media.video.count = 0;
+	}
+	
 	// NÉMORAK
 	{
 		cardId = "nemorak";
